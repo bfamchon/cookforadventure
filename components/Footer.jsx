@@ -14,7 +14,7 @@ const StyledFooter = styled.footer`
 
 const Footer = () => {
     return (
-        <StyledFooter>Fait avec &nbsp;<FontAwesomeIcon icon={faHeart}/></StyledFooter>
+        <StyledFooter>Fait avec&nbsp;<FontAwesomeIcon icon={faHeart}/></StyledFooter>
     );
 };
 

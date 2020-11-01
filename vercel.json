@@ -1,0 +1,6 @@
+{
+  "env": {
+    "SENDINBLUE_LIST_ID": "@sendinblue-list-id",
+    "SENDINBLUE_API_KEY": "@sendinblue-api-key"
+  }
+}

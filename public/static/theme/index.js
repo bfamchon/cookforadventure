@@ -22,7 +22,6 @@ const h2 = `
 const h3 = `
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	color: white;
     font-size: 28px;
     font-weight: 700;
 	letter-spacing: 1px;
@@ -32,7 +31,6 @@ const h3 = `
 const h4 = `
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	color: white;
     font-size: 22px;
     font-weight: 700;
 	letter-spacing: 1px;
@@ -56,7 +54,6 @@ const p = `
 const footer = `
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	color: white;
     font-size: 20px;
     font-weight: 400;
 	letter-spacing: 1px;
@@ -109,6 +106,15 @@ const input = `
     padding: 0 20px;
 `;
 
+const a = `
+	font-family: 'OpenSans', sans-serif;
+	font-weight: 400;
+	
+	:active {
+		color: red;
+	}
+`;
+
 const size = {
     mobileS: '320px',
     mobileM: '375px',
@@ -142,5 +148,6 @@ export default {
     buttonDanger,
     colors,
     device,
-    input,
+	input,
+	a,
 }
