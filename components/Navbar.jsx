@@ -37,6 +37,9 @@ const Navigation = () => {
         <Link href={'/adventure-recipes'}>
           <a>Recettes</a>
         </Link>
+        <Link href={'/adventures'}>
+          <a>Récits d'aventures</a>
+        </Link>
         <Link href={'/adventure-products'}>
           <a>Tests produits</a>
         </Link>

@@ -4,7 +4,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
     background: url(${props => props.background}) no-repeat center center;
 `;
@@ -17,10 +17,10 @@ const H2 = styled.h2`
     ${props => props.theme.h2}
 `;
 
-const Head = ({subtitle, background}) => {
+const Head = ({title, subtitle, background}) => {
     return (
     <Container background={background}>
-        <H1>Cook for adventure</H1>
+        <H1>{title || 'Cook for adventure'}</H1>
     <H2>{subtitle}</H2>
     </Container>);
 };

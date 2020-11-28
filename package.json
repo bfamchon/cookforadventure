@@ -9,12 +9,17 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
     "babel-plugin-styled-components": "^1.11.1",
+    "glob": "^7.1.6",
+    "gray-matter": "^4.0.2",
     "next": "^10.0.0",
-    "react": "16.13.1",
+    "next-seo": "^4.15.0",
+    "react": "^16.13.1",
     "react-dom": "16.13.1",
+    "react-markdown": "^5.0.2",
     "sib-api-v3-sdk": "^8.0.1",
     "styled-components": "^5.2.1"
   }

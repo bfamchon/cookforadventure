@@ -115,6 +115,13 @@ const a = `
 	}
 `;
 
+const ul = `
+	font-family: 'OpenSans', sans-serif;
+	align-self: center;
+	font-size: 20px;
+	line-height: 28px;
+`;
+
 const size = {
     mobileS: '320px',
     mobileM: '375px',
@@ -145,9 +152,11 @@ export default {
     text,
     footer,
     button,
-    buttonDanger,
+	buttonDanger,
+	size,
     colors,
     device,
 	input,
 	a,
+	ul,
 }

@@ -2,20 +2,21 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const SectionParagraph = styled.p`
+const Paragraph = styled.p`
     ${props => props.theme.p}
+    text-align: ${props => props.center ? 'center' : 'justify'};
 
     & > a {
         ${props => props.theme.a}
     }
 `;
 
-const SectionTitle = ({ children }) => {
+const SectionParagraph = ({ children, center }) => {
     return (
-        <SectionParagraph>{children}</SectionParagraph>);
+        <Paragraph center={center}>{children}</Paragraph>);
 };
 
-SectionTitle.propTypes = {
+SectionParagraph.propTypes = {
 };
 
-export default SectionTitle;
+export default SectionParagraph;

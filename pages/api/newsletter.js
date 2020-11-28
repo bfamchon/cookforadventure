@@ -8,7 +8,6 @@ let apiInstance = new SibApiV3Sdk.ContactsApi();
 export default async (req, res) => {
     // 1. Destructure the email address from the request body.
     const { email } = req.body;
-    console.log(email);
     if (!email) {
         // 2. Throw an error if an email wasn't provided.
         return res.status(400).json({ error: 'Email is required' });
@@ -21,11 +20,8 @@ export default async (req, res) => {
         contact.email = email;
         contact.listIds = LIST_IDS;
 
-        console.log('createContact done')
         // 6. Send a POST request to Mailchimp.
         return apiInstance.createContact(contact).then(response => {
-            console.log('GOT RESPONSE');
-            console.log(response);
             // 7. Swallow any errors from Mailchimp and return a better error message.
             if (response.status >= 400) {
                 return res.status(400).json({

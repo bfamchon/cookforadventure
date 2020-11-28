@@ -33,7 +33,6 @@ const Newsletter = ({}) => {
             },
             method: 'POST'
         });
-        console.log('SUBMITED !');
         setLoading(false);
     }
 
@@ -53,7 +52,6 @@ const Newsletter = ({}) => {
                 <Input type="email" placeholder="example@mail.com" value={email} onChange={handleEmailChange} required="required"/>
                 <Button type="submit" disabled={loading}>{loading ? <i className="fas fa-circle-notch fa-spin"></i> : "S'inscrire"}</Button>
             </React.Fragment>
-            
         </Group>);
 };
 

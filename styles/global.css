@@ -32,6 +32,7 @@
     min-width: 100vw;
     background-color: #f2f2f2;
     color: #1a1a1a;
+    --brown: #c65817;
   }
 
   body {
@@ -41,4 +42,13 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+
+strong {
+ color: var(--brown); 
+}
+
+a {
+  color: var(--brown);
 }
