@@ -9,7 +9,7 @@ import { getAllProducts } from 'lib/products';
 export default function AdventureProducts({ products }) {
     return (
         <>
-            <Head background={'/static/images/adventure-products.jpg'} subtitle={"Emporte avec toi le minimum, mais choisi ce minimum avec beaucoup d'importance !"}/>
+            <Head background={'/static/images/adventure-products.jpg'} subtitle={"Emporte avec toi le minimum, mais choisis ce minimum avec beaucoup d'importance !"}/>
             <Section id="last-products" title="Les dernières produits testés">
                 {products && <Articles articles={products} />}
                 {products.length === 0 && <SectionParagraph center>En cours d'écriture !</SectionParagraph>}

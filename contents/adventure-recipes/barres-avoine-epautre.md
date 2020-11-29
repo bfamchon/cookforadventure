@@ -33,7 +33,7 @@ Nous avions bien sûr avec des barres de céréales du commerce, mais entre nous
 
 C'est naturellement que je me suis proposé d'en préparer, l'avantage c'est qu'on peut **réaliser pas mal de variante** avec ce dont on dispose à la maison.
 
-Pour le transport, toutes les barres de céréales tenaient dans [la poche ventrale de l'ultra bag 20L de chez WAA](/adventure-products/waa-ultra-bag "WAA Ultra bag 20L, simplicité et practicité pour vos aventures ultra légère !"). Car oui, le poids était important : nous sommes partis avec 20/25L sur le dos, soit environ 4-5kg chacun, couchage inclus... Je portais donc environ 500g de barres pour les 5 jours. Les barres étaient donc stockées dans un sac zip trouvable en grande surface, et calées par [le topoguide officiel du GR30](https://amzn.to/3lx7itQ) !
+Pour le transport, toutes les barres de céréales tenaient dans [la poche ventrale de l'ultra bag 20L de chez WAA](/adventure-products "WAA Ultra bag 20L, simplicité et practicité pour vos aventures ultra légère !"). Car oui, le poids était important : nous sommes partis avec 20/25L sur le dos, soit environ 4-5kg chacun, couchage inclus... Je portais donc environ 500g de barres pour les 5 jours. Les barres étaient donc stockées dans un sac zip trouvable en grande surface, et calées par [le topoguide officiel du GR30](https://amzn.to/3lx7itQ) !
 
 Vraiment pratique cette poche avant pour du petit matériel, facilement manipulable en courant/marchant sans avoir à ouvrir le sac.
 

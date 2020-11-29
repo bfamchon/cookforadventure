@@ -116,7 +116,7 @@ Après une bel échauffement dans la montée, nous décidons de mettre un peu de
 
 ### Première nuit à Orcival 
 
-Quand on arrive en ville... Personne change de trotoir, parce-qu'il n'y a vraiment personne ici ! Heuresement, nous trouvons quelques épiceries ouvertes dans le centre pour prendre le ravitaillement du lendemain. Le restau est bien mérité ! D'ailleurs, je vous recommande vraiment l'[auberge du Cantou](https://www.tripadvisor.fr/Restaurant_Review-g1903411-d1895908-Reviews-Auberge_Le_Cantou-Orcival_Puy_de_Dome_Auvergne_Rhone_Alpes.html) où nous avons mangé de très bonnes spécialités.
+Quand on arrive en ville... Personne change de trotoir, parce-qu'il n'y a vraiment personne ici ! Heureusement, nous trouvons quelques épiceries ouvertes dans le centre pour prendre le ravitaillement du lendemain. Le restau est bien mérité ! D'ailleurs, je vous recommande vraiment l'[auberge du Cantou](https://www.tripadvisor.fr/Restaurant_Review-g1903411-d1895908-Reviews-Auberge_Le_Cantou-Orcival_Puy_de_Dome_Auvergne_Rhone_Alpes.html) où nous avons mangé de très bonnes spécialités.
 
 On ne tarde pas de trop car il fait noir et il nous reste encore à trouver un endroit pour poser le camp de ce soir...
 
@@ -134,7 +134,7 @@ Après une [barre de céréales](/adventure-recipes/barres-avoine-epautre) en gu
 
 C'est une journée sous la pluie que nous allons passer, assez éprouvante au vu du repos inexistant ! Mais les jambes sont présentes pour courir dans la forêt, aux alentours du puy de la vache, où nous rencontrons un groupe de coureurs avec lequel nous partagerons quelques kilomètres. Eux aussi sont interloqués par notre équipement et surtout par la baguette que l'on se trimbale depuis la veille !
 
-L'heure du repas a sonné avec au programme : baguette trempée, filet mignon séché et fromage de chèvre... On est pas bien là ? Un peu frais je l'avoue, heuresement que nous avons trouvé un emplacement sous abri au camping la clairière à proximité du lac d'Aydat, la pluie ne nous aurait pas fait de cadeau.
+L'heure du repas a sonné avec au programme : baguette trempée, filet mignon séché et fromage de chèvre... On est pas bien là ? Un peu frais je l'avoue, heureusement que nous avons trouvé un emplacement sous abri au camping la clairière à proximité du lac d'Aydat, la pluie ne nous aurait pas fait de cadeau.
 
 La deuxième partie de la journée fut très agréable, le soleil se pointe et a permis à nos affaires de sécher, quel plaisir ! Ça nous laisse même le temps de prendre quelques photos du paysage. D'ailleurs, le passage entre Aydat et Olloix était vraiment plaisant et, à mon sens, représente bien la diversité de l'Auvergne: on passe de paysages assez secs et rocailleux à ceux où la végétation est très présente et humide, en moins d'1km.
 
@@ -160,7 +160,7 @@ Après avoir repris des forces et fait le plein au supermarché, nous reprenons 
 
 ### Une place de rêve pour admirer le couché de soleil
 
-Arrivé à Compains et après avoir avalé une [barre de céréales](/adventure-recipes/barres-avoine-epautre), nous décidons de continuer à marcher quelques kilomètres pour trouver l'emplacement idéal. Décidés à ne pas reproduire les mêmes erreurs qu'à la première nuit, nous sommes prudents sur l'analyse du terrain ! Malheuresement, nous ne trouvons pas beaucoup de bois pour allumer un feu depuis la montée, mais il faut faire avec. L'emplacement est trouvé quelques mètres plus loin, je devrais réussir à tendre la faitière à cet endroit pendant que Ludovic part à la recherche de quelques branches: un repas de rêve à base de St Nectaire fondu nous attends !
+Arrivé à Compains et après avoir avalé une [barre de céréales](/adventure-recipes/barres-avoine-epautre), nous décidons de continuer à marcher quelques kilomètres pour trouver l'emplacement idéal. Décidés à ne pas reproduire les mêmes erreurs qu'à la première nuit, nous sommes prudents sur l'analyse du terrain ! Malheureusement, nous ne trouvons pas beaucoup de bois pour allumer un feu depuis la montée, mais il faut faire avec. L'emplacement est trouvé quelques mètres plus loin, je devrais réussir à tendre la faitière à cet endroit pendant que Ludovic part à la recherche de quelques branches: un repas de rêve à base de St Nectaire fondu nous attends !
 
 ![Campement monté et feu délimité pour notre repas du soir](https://cfa-images.s3.eu-west-3.amazonaws.com/20201012_195222.jpg)
 
@@ -172,7 +172,7 @@ Quelle idée ! On dort à moitié en marchant, la brume est bien présente et la
 
 Cette étape aura été éprouvante mentalement, sans compter l'incertitude de trouver quelque chose d'ouvert à 7h, heure à laquelle nous devrions arriver en ville.
 
-C'est dans les moments compliqués comme celui-ci que j'ai tendance à redoubler d'efforts pour arriver au but. Vigilent, je remarque de la lumière dans un hôtel qui semble ouvert (plutôt rare à cette période): "Génial ! On va pouvoir demander si des commerces sont présents dans le coin !". Malheuresement, l'accès principal est fermé. Une porte cochère laisse supposer un accès à l'arrière cour: il faut tenter. De loin ça ressemble à une cuisine... Bingo ! Le propriétaire nous apperçoit et il accepte de nous servir un repas comme à ses clients.
+C'est dans les moments compliqués comme celui-ci que j'ai tendance à redoubler d'efforts pour arriver au but. Vigilent, je remarque de la lumière dans un hôtel qui semble ouvert (plutôt rare à cette période): "Génial ! On va pouvoir demander si des commerces sont présents dans le coin !". Malheureusement, l'accès principal est fermé. Une porte cochère laisse supposer un accès à l'arrière cour: il faut tenter. De loin ça ressemble à une cuisine... Bingo ! Le propriétaire nous apperçoit et il accepte de nous servir un repas comme à ses clients.
 
 [Cet établissement est une perle](https://www.hotel-providence.com/fr,1,13005.html): nous étions trempés, boueux, fatigués par la route et malgré ça: nous avons été accueillis comme des rois. 
 
@@ -201,7 +201,7 @@ Après une telle journée une chose est sûre, nous n'allons pas tarder à dormi
 
 L'avantage de l'hôtel du midi, c'est qu'il est associé à l'épicerie juste à côté où nous pouvons prendre quelques provisions pour le midi. Après quelques galères pour le réglement à cause des terminaux ne voulant plus se démarrer (NB: toujours avoir du liquide !), nous prenons la route pour ce qui devrait être l'avant dernière étape jusqu'à Chareire.
 
-C'est avec un grand plaisir que nous retrouvons quelques tourbières sur notre chemin ! Heuresement, elles étaient beaucoup moins compliquées à passer que celles de la journée précédente. Nous avançons jusqu'à arriver à la Barthe, région connue notamment pour sa sublime cascade qui ne nous laisse pas indiférents.
+C'est avec un grand plaisir que nous retrouvons quelques tourbières sur notre chemin ! Heureusement, elles étaient beaucoup moins compliquées à passer que celles de la journée précédente. Nous avançons jusqu'à arriver à la Barthe, région connue notamment pour sa sublime cascade qui ne nous laisse pas indiférents.
 
 ![Cascade de la Barthe](https://cfa-images.s3.eu-west-3.amazonaws.com/20201014_133714.jpg)
 
@@ -209,11 +209,11 @@ Nous arrivons ensuite à l'orée d'un bois où un panneau indiquant la présence
 
 ![Beauté de la plaine et de ses couleurs d'automne](https://cfa-images.s3.eu-west-3.amazonaws.com/20201014_135350.jpg)
 
-Sûrement intrigués par la présence de 3 gaillards en plein octobre, deux juments s'avancent vers nous. Comme à mon habitude, je m'approche également pour une séance de gratouilles bien appréciée. Nous voyons débarquer 3 autres juments sorties de nul part, elles semblent être jalouses et se poussent mutuellement, l'heure pour nous de partir. C'est amusés que nous constatons qu'elles nous suivent au trot jusqu'à une partie de leur enclos qui était ouverte. Puis elles commencent soudainement à courir dans tous les sens, se pousser, se cabrer, et leur taille impréssionante nous laisse à penser qu'on serait mieux de l'autre côté de l'enclos !
+Sûrement intrigués par la présence de 3 gaillards en plein octobre, deux juments s'avancent vers nous. Comme à mon habitude, je m'approche également pour une séance de gratouilles bien appréciée. Nous voyons débarquer 3 autres juments sorties de nul part, elles semblent être jalouses et se poussent mutuellement, l'heure pour nous de partir. C'est amusés que nous constatons qu'elles nous suivent au trot jusqu'à une partie de leur enclos qui était ouvert. Puis elles commencent soudainement à courir dans tous les sens, se pousser, se cabrer, et leur taille impréssionante nous laisse à penser qu'on serait mieux de l'autre côté de l'enclos !
 
 Dans 7 kilomètres, nous devrions arriver à Picherande où quelques commerces sont indiqués, on devrait pouvoir se ravitailler là-bas pour le repas de ce soir. Arrivés sur place, nous trouvons une ville presque morte: tout est fermé, personne aux alentours pour nous conseiller. Nous traçons notre route en misant sur l'auberge de Chareire, qui devrait pouvoir nous acceuillir d'après la propriétaire.
 
-Malheuresement, la partie restauration est fermé à cette période, nous n'avons donc rien pour la soirée. Avant l'arrivée de la propriétaire, nous pensions que la seule option possible était de rejoindre Super Besse, station de ski de la région, et trouver quelque chose là-bas... Mais c'est encore loin.
+Malheureusement, la partie restauration est fermé à cette période, nous n'avons donc rien pour la soirée. Avant l'arrivée de la propriétaire, nous pensions que la seule option possible était de rejoindre Super Besse, station de ski de la région, et trouver quelque chose là-bas... Mais c'est encore loin.
 
 Dans toute sa gentillesse, la propriétaire du [gîte/auberge Du Taraffet](https://www.gite-auberge-le-taraffet.fr/) nous ramène de quoi manger ce soir: pâtes, st nectaire, charcuterie, pain... Mais aussi pour demain matin ! Elle nous a vraiment sauvé la vie, cette soirée aura été riche en rebondissements. Je me met donc aux fourneaux pour préparer des pâtes à la sauce st nectaire, il faut prendre des forces et se reposer pour la dernière étape qui nous attend demain matin : gravir le Sancy.
 
