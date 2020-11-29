@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faTools } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Spacer = styled.div`
@@ -74,10 +74,10 @@ const Footer = styled.p`
     }
 `;
 
-const ArticleCard = ({ article : {link, slug, title, img, desc}}) => {
+const ArticleCard = ({ article : {link, slug, title, img, desc, draft}}) => {
     return (
         <Spacer>
-            <Link href={link} >
+            {!draft && <Link href={link} >
                 <a>
                     <Container>
                         <Image src={img} id={slug} />
@@ -90,7 +90,16 @@ const ArticleCard = ({ article : {link, slug, title, img, desc}}) => {
                         </CardContent>
                     </Container>
                 </a>
-            </Link>
+            </Link>}
+            {draft && <Container>
+                        <Image src={img} id={slug} />
+                        <CardContent>
+                            <Title>{title}</Title>
+                            <DescriptionContainer>
+                                <Description>{desc} <FontAwesomeIcon icon={faTools} size="lg" /></Description>
+                            </DescriptionContainer>
+                        </CardContent>
+                    </Container>}
         </Spacer>
     );
 };

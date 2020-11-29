@@ -73,7 +73,7 @@ export const getStaticProps = async ({...ctx}) => {
 };
 export async function getStaticPaths() {
     return {
-        paths : [],
+        paths : getAllPaths(),
         fallback: false,
     };
 }
