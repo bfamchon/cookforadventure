@@ -2,7 +2,8 @@
 slug: gr30-ultra-leger
 lang: fr
 title: Le GR30 en ultra léger
-img: https://picsum.photos/id/634/1920/1080
+date: 10/20/2020
+img: https://cfa-images.s3.eu-west-3.amazonaws.com/20201010_142205.jpg
 desc: Les lacs et volcans d'Auvergne dans leurs couleurs d'automne.
 days: 5
 elevation: 5644

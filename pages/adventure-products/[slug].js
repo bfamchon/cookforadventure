@@ -1,5 +1,5 @@
 import Head from 'components/Head'
-import Title from 'components/blog/title';
+import Title from 'components/blog/Title';
 import Section from 'components/section';
 
 import ReactMarkdown from 'react-markdown';

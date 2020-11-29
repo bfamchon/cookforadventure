@@ -9,7 +9,7 @@ import { getAllRecipes } from 'lib/recipes';
 export default function AdventureRecipes({ recipes }) {
     return (
         <>
-            <Head background={'https://picsum.photos/id/1039/1920/1080'} subtitle={"Manger mieux, pour voyager plus loin !"}/>
+            <Head background={'/static/images/adventure-recipes.jpg'} subtitle={"Manger mieux, pour voyager plus loin !"}/>
             <Section id="last-recipes" title="Les dernières recettes">
                 <Articles articles={recipes} />
             </Section>

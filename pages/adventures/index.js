@@ -9,7 +9,7 @@ import { getAllAdventures } from 'lib/adventures';
 export default function Adventures({ adventures }) {
     return (
         <>
-            <Head background={'https://picsum.photos/id/1039/1920/1080'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
+            <Head background={'/static/images/adventures.jpg'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
             <Section id="last-recipes" title="Les derniers récits">
                 <Articles articles={adventures} />
             </Section>

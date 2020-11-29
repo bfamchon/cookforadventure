@@ -64,7 +64,7 @@ const button = `
 cursor: pointer;
 	box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
 	border-width: 0;
-	background-color: ${colors.GREEN};
+	background-color: ${colors.BROWN};
 	color: white;
 	align-items: center;
 	justify-content: center;
@@ -76,13 +76,13 @@ cursor: pointer;
 	padding : 10px 25px;
 
 	:disabled {
-		background-color: ${colors.LIGHT_GREEN};
+		background-color: ${colors.LIGHT_BROWN};
 		cursor: not-allowed;
 	}
 
     :active {
         box-shadow:inset 0 -0.4em 0 -0.30em rgba(0,0,0,0.17);
-        background-color: ${colors.GREEN};
+        background-color: ${colors.BROWN};
         color: rgba(255,255,255,0.8);
     }
 `;

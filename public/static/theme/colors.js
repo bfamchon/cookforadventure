@@ -1,4 +1,6 @@
 export default {
+    BROWN: '#c65817',
+    LIGHT_BROWN: '#c8713d',
     ORANGE: '#ed8b00',
     LIGHT_ORANGE: '#f5e4cb',
     GREY: '#5b6770',

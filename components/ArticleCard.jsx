@@ -27,7 +27,8 @@ const Container = styled.article`
 
 const Image = styled.img`
     object-fit: cover;
-    width: 100%;
+    width: 100%;    
+    max-height: 200px;
 `;
 
 const CardContent = styled.div`

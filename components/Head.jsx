@@ -7,6 +7,7 @@ const Container = styled.div`
     min-height: 85vh;
     width: 100%;
     background: url(${props => props.background}) no-repeat center center;
+    background-size: cover;
 `;
 
 const H1 = styled.h1`
