@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Head from 'components/Head'
-import Title from 'components/blog/title';
+import Title from 'components/blog/Title';
 import Tag from 'components/Tag';
 import Section from 'components/section';
 import SectionParagraph from 'components/section/paragraph';
