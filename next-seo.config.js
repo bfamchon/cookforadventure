@@ -10,8 +10,15 @@ export default {
             "Cook For Adventure",
         description:
             "Une recette, une aventure.",
-        image:
-            'https://cookforadventure.com/static/images/about.jpg',
+        images: [
+            
+                {
+                url: 'https://cookforadventure.com/static/images/about.jpg',
+                    width: 800,
+                    height: 600,
+                    alt: '',
+                },
+        ],
         site_name: 'Cook For Adventure',
         imageWidth: 1200,
         imageHeight: 1200,
