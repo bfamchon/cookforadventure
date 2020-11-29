@@ -4,6 +4,7 @@ import Newsletter from 'components/Newsletter'
 import Section from 'components/section'
 import SectionParagraph from 'components/section/paragraph'
 import styled from 'styled-components';
+import {NextSeo} from 'next-seo';
 
 const Image = styled.img`
     border-radius: 50%;
@@ -16,6 +17,10 @@ const Image = styled.img`
 export default function About() {
     return (
         <>
+            <NextSeo
+                title="Cook For Adventure | À propos"
+                description="En savoir plus sur mes motivations et sur Cook For Adventure !"
+            />
             <Head background={'/static/images/about.jpg'} subtitle={'Aventuriers, Épicuriens, ce site est fait pour vous.'}></Head>
             <Section id="why" title="Manifesto">
                 <SectionParagraph>As-tu déjà ressenti cette sensation de ne <strong>pas savoir quoi manger pendant le sport</strong> ? De ne <strong>pas avoir assez de calories</strong> pour tes entraînements ? Ou sur tes randonnées de plusieurs jours ?</SectionParagraph>

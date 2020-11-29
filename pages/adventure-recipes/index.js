@@ -5,10 +5,15 @@ import Section from 'components/section'
 import SectionParagraph from 'components/section/paragraph'
 import Articles from 'components/Articles'
 import { getAllRecipes } from 'lib/recipes';
+import { NextSeo } from 'next-seo';
 
 export default function AdventureRecipes({ recipes }) {
     return (
         <>
+            <NextSeo
+                title="Cook For Adventure | Des recettes pour l'aventure"
+                description="Vous retrouverez ici toutes les recettes avec indications nutritionelles dédiées à l'effort !"
+            />
             <Head background={'/static/images/adventure-recipes.jpg'} subtitle={"Manger mieux, pour voyager plus loin !"}/>
             <Section id="last-recipes" title="Les dernières recettes">
                 <Articles articles={recipes} />

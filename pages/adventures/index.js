@@ -5,10 +5,15 @@ import Section from 'components/section'
 import SectionParagraph from 'components/section/paragraph'
 import Articles from 'components/Articles'
 import { getAllAdventures } from 'lib/adventures';
+import { NextSeo } from 'next-seo';
 
 export default function Adventures({ adventures }) {
     return (
         <>
+            <NextSeo
+                title="Cook For Adventure | Partons explorer ensemble"
+                description="Vous retrouverez ici tous mes récits d'aventure !"
+            />
             <Head background={'/static/images/adventures.jpg'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
             <Section id="last-recipes" title="Les derniers récits">
                 <Articles articles={adventures} />

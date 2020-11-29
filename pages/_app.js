@@ -1,6 +1,6 @@
 import 'styles/global.css';
 
-import { DefaultSeo } from 'next-seo';
+import { DefaultSeo, SocialProfileJsonLd } from 'next-seo';
 import SEO from 'next-seo.config';
 
 import App from 'next/app';
@@ -15,6 +15,15 @@ const MyApp = ({ Component, pageProps }) => {
     return (
         <ThemeProvider theme={theme}>
             <DefaultSeo {...SEO} />
+            <SocialProfileJsonLd
+                type="Organization"
+                name="Cook For adventure"
+                url="https://cookforadventure.com"
+                sameAs={[
+                    'https://www.strava.com/athletes/25128286',
+                    'https://www.instagram.com/bfamchon',
+                ]}
+            />
             <Layout>
                 <Component {...pageProps} />
             </Layout>
