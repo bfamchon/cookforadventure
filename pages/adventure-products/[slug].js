@@ -1,9 +1,14 @@
+import Link from 'next/link'
 import Head from 'components/Head'
 import Title from 'components/blog/Title';
+import Tag from 'components/Tag';
 import Section from 'components/section';
+import SectionParagraph from 'components/section/paragraph';
+
+import Newsletter from 'components/Newsletter';
 
 import ReactMarkdown from 'react-markdown';
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components';
 
 import { getAllPaths, getAProduct } from 'lib/products';
 
