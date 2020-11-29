@@ -5,6 +5,8 @@ module.exports = {
             config.node = {
                 fs: 'empty'
             }
+        } else {
+            require('./scripts/sitemap');
         }
 
         return config

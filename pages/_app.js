@@ -1,5 +1,8 @@
 import 'styles/global.css';
 
+import { DefaultSeo } from 'next-seo';
+import SEO from 'next-seo.config';
+
 import App from 'next/app';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
@@ -11,6 +14,7 @@ import theme from 'public/static/theme';
 const MyApp = ({ Component, pageProps }) => {
     return (
         <ThemeProvider theme={theme}>
+            <DefaultSeo {...SEO} />
             <Layout>
                 <Component {...pageProps} />
             </Layout>
