@@ -10,8 +10,27 @@ import { ThemeProvider } from 'styled-components';
 import Layout from 'components/Layout.jsx';
 import theme from 'public/static/theme';
 
+import { useRouter } from "next/router";
+import { useEffect, useCallback } from "react";
+import * as gtag from "../lib/gtag";
+const isProduction = process.env.NODE_ENV === "production";
+
 
 const MyApp = ({ Component, pageProps }) => {
+    const router = useRouter();
+
+    const handleRouteChange = useCallback(url => {
+        /* invoke analytics function only for production */
+        if (isProduction) gtag.pageview(url);
+      }, []);
+
+  useEffect(() => {
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
     return (
         <ThemeProvider theme={theme}>
             <DefaultSeo {...SEO} />
