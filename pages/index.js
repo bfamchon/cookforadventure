@@ -5,6 +5,15 @@ import Section from 'components/section'
 import SectionParagraph from 'components/section/paragraph'
 import Articles from 'components/Articles'
 import { getLatestPosts } from 'lib/articles';
+import styled from 'styled-components';
+
+const Image = styled.img`
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 0 8px 24px 0 rgb(72 88 101 / 22%);
+    margin-bottom: 20px;
+`;
 
 export default function Home({articles}) {
   return (
@@ -19,7 +28,13 @@ export default function Home({articles}) {
       <Section id="newsletter" title="200% aventure, 0% spam">
         <Newsletter />
       </Section>
-      <Section id="latest" title="Les dernières sorties">
+      <Section id="made-with-love" title="Fait par un passionné">
+                <Image src="/static/images/megnature.jpg" />
+                <SectionParagraph center><i>J'me présente, je m'appelle Baptiste !</i></SectionParagraph>
+                <SectionParagraph>Et comme toi, j'aime les <strong>choses simples</strong> de la vie: partir à l'aventure et manger. Ce blog en est la bonne représentation !</SectionParagraph>
+                <SectionParagraph>Pour moi, la cuisine est d'abord un <strong>moyen de partager</strong>, faire plaisir et se <strong>faire plaisir</strong>. En l'associant au sport, je te partage ici mes deux passions à travers une multitude d'articles: la nutrition sportive n'aura plus de secrets pour toi !</SectionParagraph>
+            </Section>
+      <Section id="latest" title="Les dernières sorties" marginLR={120}>
         <Articles articles={articles} />
       </Section>
     </>

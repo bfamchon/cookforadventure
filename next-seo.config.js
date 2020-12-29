@@ -13,9 +13,9 @@ export default {
         images: [
             
                 {
-                url: 'https://cookforadventure.com/static/images/about.jpg',
+                url: 'https://cookforadventure.com/static/images/seo-miniature.webp',
                     width: 800,
-                    height: 600,
+                    height: 450,
                     alt: '',
                 },
         ],

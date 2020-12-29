@@ -21,7 +21,7 @@ const Container = styled.article`
     flex-direction: column;
     max-width: 100%;
     width: 320px;
-    height: 400px;
+    height: 410px;
     box-shadow: 0px 0px 3px 0px white;
 `;
 

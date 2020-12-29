@@ -16,13 +16,13 @@ const Container = styled.section`
         margin: 0 40px;
     }
     @media ${props => props.theme.device.laptop} {
-        margin: 0 200px;
+        margin: 0 ${props => props.marginLR}px;
     }
 `;
 
-const Section = ({id, title, children}) => {
+const Section = ({id, title, marginLR = 200, children}) => {
     return (
-        <Container id={id}>
+        <Container id={id} marginLR={marginLR}>
             {title ? <><SectionTitle text={title} />
             <SectionSeparator /></> : null}
             {children}
@@ -32,6 +32,7 @@ const Section = ({id, title, children}) => {
 Section.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string,
+    marginLR: PropTypes.number
 };
 
 export default Section;

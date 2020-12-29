@@ -21,7 +21,7 @@ export default function About() {
                 title="Cook For Adventure | À propos"
                 description="En savoir plus sur mes motivations et sur Cook For Adventure !"
             />
-            <Head background={'/static/images/about.jpg'} subtitle={'Aventuriers, Épicuriens, ce site est fait pour vous.'}></Head>
+            <Head background={'/static/images/about.webp'} subtitle={'Aventuriers, Épicuriens, ce site est fait pour vous.'}></Head>
             <Section id="why" title="Manifesto">
                 <SectionParagraph>As-tu déjà ressenti cette sensation de ne <strong>pas savoir quoi manger pendant le sport</strong> ? De ne <strong>pas avoir assez de calories</strong> pour tes entraînements ? Ou sur tes randonnées de plusieurs jours ?</SectionParagraph>
                 <SectionParagraph>C'était mon cas. Et mis à part les produits que l'on retrouvait dans les grandes enseignes (repas lyophilisés, snacks healthy...), souvent incomplets sur le plan nutritionnel, je ne savais pas quoi manger. Plutôt dommage étant donné que le progrès vient avec le <strong>repos et l'alimentation.</strong></SectionParagraph>
@@ -37,7 +37,8 @@ export default function About() {
                 <Image src="/static/images/megnature.jpg" />
                 <SectionParagraph center><i>J'me présente, je m'appelle Baptiste !</i></SectionParagraph>
                 <SectionParagraph>Et comme toi, j'aime les <strong>choses simples</strong> de la vie: partir à l'aventure et manger. Ce blog en est la bonne représentation !</SectionParagraph>
-                <SectionParagraph>Pour moi, la cuisine est d'abord un <strong>moyen de partager</strong>, faire plaisir et se <strong>faire plaisir</strong>. En l'associant au sport, je te partage ici mes deux passions à travers une multitude d'articles !</SectionParagraph>
+                <SectionParagraph>La nutrition de l'effort est un sujet qui m'intéresse depuis ces années où je suis passé de 110 à 70kg en quelques mois, grâce à un <strong>rééquilibrage alimentaire et au sport</strong>: vélo et course à pieds.</SectionParagraph>
+                <SectionParagraph>Pour moi, la cuisine est d'abord un <strong>moyen de partager</strong>, faire plaisir et se <strong>faire plaisir</strong>. En l'associant au sport, je te partage ici mes deux passions à travers une multitude d'articles: la nutrition sportive n'aura plus de secrets pour toi !</SectionParagraph>
             </Section>
         </>
     )
