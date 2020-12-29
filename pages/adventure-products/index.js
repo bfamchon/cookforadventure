@@ -27,7 +27,7 @@ export default function AdventureProducts({ products }) {
 export const getStaticProps = async () => {
     return {
         props: {
-            products: getAllProducts(),
+            products: [], //getAllProducts(),
         },
     };
 };
