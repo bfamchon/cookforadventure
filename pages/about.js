@@ -34,7 +34,7 @@ export default function About() {
                 <Newsletter />
             </Section>
             <Section id="made-with-love" title="Fait par un passionné">
-                <Image src="/static/images/megnature.jpg" />
+                <Image src="/static/images/megnature.webp" />
                 <SectionParagraph center><i>J'me présente, je m'appelle Baptiste !</i></SectionParagraph>
                 <SectionParagraph>Et comme toi, j'aime les <strong>choses simples</strong> de la vie: partir à l'aventure et manger. Ce blog en est la bonne représentation !</SectionParagraph>
                 <SectionParagraph>La nutrition de l'effort est un sujet qui m'intéresse depuis ces années où je suis passé de 110 à 70kg en quelques mois, grâce à un <strong>rééquilibrage alimentaire et au sport</strong>: vélo et course à pieds.</SectionParagraph>

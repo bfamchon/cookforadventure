@@ -16,11 +16,9 @@ export default {
                 url: 'https://cookforadventure.com/static/images/seo-miniature.webp',
                     width: 800,
                     height: 450,
-                    alt: '',
+                    alt: 'Cook for adventure miniature image',
                 },
         ],
         site_name: 'Cook For Adventure',
-        imageWidth: 1200,
-        imageHeight: 1200,
     }
 };
