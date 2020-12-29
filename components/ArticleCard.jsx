@@ -112,6 +112,7 @@ const ArticleCard = ({ article : {link, slug, title, img, desc, draft}}) => {
         img: PropTypes.string.isRequired,
         lang: PropTypes.string,
         desc: PropTypes.string,
+        draft: PropTypes.bool,
     }).isRequired,
 };
 
