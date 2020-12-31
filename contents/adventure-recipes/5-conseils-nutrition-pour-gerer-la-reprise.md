@@ -3,9 +3,8 @@ slug: 5-conseils-nutrition-pour-gerer-la-reprise
 lang: fr
 title: 5 conseils nutrition pour gérer la reprise
 date: 12/28/2020
-img: "http://via.placeholder.com/1920x1080"
+img: "/static/images/nutrition.webp"
 desc: Entre fêtes de fin d'année et confinements successifs, comment reprendre la main ?
-draft: true
 ---
 
 Notre rythme de vie a été **fortement perturbé** par plusieurs confinements imposés. Les déplacements et les occasions de faire des activités hors domicile ont été restreints pendant plusieurs mois et certains sont d'ailleurs encore impactés.
@@ -19,7 +18,7 @@ Malgré ça, votre corps n'est **pas aussi rapide à l'adaptation**: vous avez f
 *Reprenons tout cela en main avec ces 5 conseils !*
 
 ### Écouter son corps... Pas son cerveau !
-Vous n'avez pas forcément constater une baisse d'apétit allant avec la baisse de vos entraînements... Et c'est normal ! 
+Vous n'avez pas forcément constaté une baisse d'apétit allant avec la baisse de vos entraînements... Et c'est normal ! 
 
 La première raison est **l'habitude**: vous avez gérer vos repas toute l'année en adéquation avec un entraîenement plus intense et votre cerveau à besoin d'un temps d'adaptation avant de prendre un nouveau rythme.
 La deuxième raison est **mentale**, posez-vous la question *"Est-ce que j'ai vraiment faim ?"*. Souvent, il s'agit plutôt une **envie compulsive liée au stress** dû à un manque d'exercice, au télétravail, un besoin de relâchement, de l'ennui... Et parfois même à cause d'un manque d'eau, pensez toujours à boire un verre ou deux quand cette envie vous prend ;)
@@ -38,11 +37,14 @@ Bon... C'est pas pour autant qu'il faut se priver d'une collation, surtout avant
 
 En manque d'inspirations ? Ça tombe bien, [je vous présente sur ce blog une multitude de recettes](/adventure-recipes) !
 
-Mes collations préférées sont les oléagineux, notamment les amandes, pour leur richesse énergétique: *j'en ai toujours un paquet au bureau pour les creux*. Protéines (19 g), glucides (39 g), lipides (53 g) dont acide gras mono et poly-insaturés (en majorité des omégas 6), calcium, potassium, fer, sans parler des [fibres qui participent grandement à la bonne absorbtion des nutriments et au renforcement de vos défences imunitaires](https://www.irbms.com/fibres-alimentaires-effet-sante-sportif/)... Elles seront un partenaire de choix pour vous aider à performer.
+Mes collations préférées sont les oléagineux, notamment les amandes, pour leur richesse énergétique: *j'en ai toujours un paquet au bureau pour les creux*. Protéines (19 g), glucides (39 g), lipides (53 g) dont acide gras mono et poly-insaturés, calcium, potassium, fer, sans parler des [fibres qui participent grandement à la bonne absorbtion des nutriments et au renforcement de vos défences imunitaires](https://www.irbms.com/fibres-alimentaires-effet-sante-sportif/)... Elles seront un partenaire de choix pour vous aider à performer. 
+
+**Attention tout de même à ne pas abuser** de leur richesse en oméga 6. Ils sont essentiels à notre corps mais pourraient provoquer des inflamations et maladies cardio-vasculaires sur le long terme si consommés en trop grande quantité. 
+Le tout est de **garder une bonne balance avec les oméga 3**, que l'on retrouve dans les poissons gras ( saumon, sardine... ), le lin, ou encore dans les noix et certains légumes verts.
 
 Si je m'entraine dans les heures qui suivent, la classique banane et ses apports en magnésium / potassium m'aidera à prévenir l'apparition de fatigue et courbatures après l'effort.
 
-Dans tous les cas, privilégiez toujours les fruits et légumes BIO pour vos collations. Au dela de la mode autour du label ces dernières années, ça vous permet surtout de profiter de tous les bienfaits de la peau des aliments, qui concentre la majorité des minéraux et vitamines... Dommage de s'en priver !
+Dans tous les cas, privilégiez toujours les fruits, légumes et huiles BIO pour vos collations. Au dela de la mode autour du label ces dernières années, ça vous permet notamment de profiter de tous les bienfaits de la peau des aliments, qui concentre la majorité des minéraux et vitamines... Dommage de s'en priver !
 
 ### Notre corps aime les habitudes
 
@@ -69,4 +71,4 @@ On est clairement pas là pour s'avaler une escalope de poulet et des brocolis t
 
 Chili con carne, lasagnes saumon/épinards, risotto à la courge... Ce genre de plats qui nous font gagner un temps fou, que l'on peut préparer à l'avance pour plusieurs jours, plutôt complet point de vue nutritionel et qui plairont à votre famille. Pourquoi s'en priver ?
 
-Essayez juste de prendre ces repas plus "riches" dans une bonne fenêtre, après un gros entraînement par exemple. ;)
+Essayez juste de prendre ces repas plus "riches" dans une bonne fenêtre, dans l'heure qui suit un gros entraînement par exemple. ;)
