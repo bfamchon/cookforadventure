@@ -44,7 +44,7 @@ Le tout est de **garder une bonne balance avec les oméga 3**, que l'on retrouve
 
 Si je m'entraine dans les heures qui suivent, la classique banane et ses apports en magnésium / potassium m'aidera à prévenir l'apparition de fatigue et courbatures après l'effort.
 
-Dans tous les cas, privilégiez toujours les fruits, légumes et huiles BIO pour vos collations. Au dela de la mode autour du label ces dernières années, ça vous permet notamment de profiter de tous les bienfaits de la peau des aliments, qui concentre la majorité des minéraux et vitamines... Dommage de s'en priver !
+Dans tous les cas, privilégiez toujours les fruits, légumes et huiles BIO pour vos collations. Au dela de la mode autour du label ces dernières années, ça vous permet notamment de profiter de tous les bienfaits de **la peau des aliments**, qui concentre la majorité des **minéraux et vitamines**... Dommage de s'en priver !
 
 ### Notre corps aime les habitudes
 
@@ -52,8 +52,9 @@ On l'a vu plus haut, notre corps aime les habitudes et l'équilibre ne se joue p
 
 Côté ptit déj', je me prépare un mélange maison à base de flocons d'avoine, flocons d'épautre, amandes et noix de cajou, dans lequel j'y mélange un fruit coupé de saison ou une compote par exemple.
 
-Côté repas du midi, je fonctionne au maximum en préparant mes repas à l'avance pour 2/3 jours, un peu comme en **batch cooking**. L'idée est de prévoir un plat comprenant un aliment (par exemple une soupe de butternut), et d'utiliser l'excedent pour en faire un autre, par exemple une quiche.
-Je ne suis pas fan des plats de pates/riz le midi à cause du coup de barre qu'ils procurent quelques heures après... Je préfère en prendre un peu moins et mettre l'accent sur des légumes
+Côté repas du midi, je fonctionne au maximum en préparant mes repas à l'avance pour 2/3 jours, un peu comme en **batch cooking**. L'idée est de prévoir un plat comprenant un aliment (par exemple une soupe de butternut), et d'utiliser l'excedent de courge pour en faire un autre, par exemple une quiche.
+
+Je ne suis pas fan des plats de pates/riz le midi à cause du coup de barre qu'ils procurent quelques heures après... Je préfère en prendre un peu moins et **mettre l'accent sur des légumes**.
 
 Et pour le soir, j'essaie vraiment de garder un repas léger **même après un entraînement** et **facile à digérer** pour ne pas dégrader le sommeil et donc la récupération. Une soupe composée de légume + légumineuse par exemple (lentilles, pois chiche...) associée aux patates douces ! Ou une purée de légumes de saisons, patates poireaux, carottes, légumes verts avec du poisson, un oeuf au plat, une viande blanche... 
 
