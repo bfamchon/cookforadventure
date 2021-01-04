@@ -57,7 +57,7 @@ const AdventureRecipe = ({ article, theme }) => {
                 openGraph={{
                     title: article.title,
                     description: article.desc,
-                    url: `https://cookforadventure${article.link}`,
+                    url: `https://cookforadventure.com${article.link}`,
                     type: 'article',
                     article: {
                         publishedTime: new Date(article.date).toISOString(),
@@ -65,7 +65,7 @@ const AdventureRecipe = ({ article, theme }) => {
                     },
                     images: [
                         {
-                            url: `https://cookforadventure${article.img}`,
+                            url: `https://cookforadventure.com${article.img}`,
                             width: 850,
                             height: 650,
                             alt: `Cover picture of article ${article.title}`,

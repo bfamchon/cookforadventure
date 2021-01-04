@@ -9,7 +9,7 @@ protein: 11
 carbohydrate: 46
 lipid: 17
 transport: 4
-tags: ['nutrition', 'sport', 'cuisine', 'recette', 'barres de céréales']
+tags: ['nutrition', 'sport', 'effort', 'cuisine', 'recette', 'barres de céréales']
 ---
 
 ### Cette première après-midi magnifique
