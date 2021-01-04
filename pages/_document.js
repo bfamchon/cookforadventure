@@ -33,7 +33,10 @@ export default class MyDocument extends Document {
     }
     render() {
         return (
-          <Html>
+          <Html
+            lang={
+              'fr'
+            }>
             <Head>
               {/* enable analytics script only for production */}
               {isProduction && (
