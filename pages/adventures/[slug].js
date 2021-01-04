@@ -12,6 +12,7 @@ import { faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { getAllPaths, getAnAdventure } from 'lib/adventures';
+import { NextSeo } from 'next-seo';
 
 const Image = styled.img`
     display: flex;
@@ -47,19 +48,41 @@ const HeadingLevelToComponent = (props) => {
     }
 }
 
-const Adventure = ({ adventure, theme }) => {
+const Adventure = ({ article, theme }) => {
     return (
-        <>
-            <Head background={adventure.img} title={adventure.title} subtitle={adventure.desc}/>
+        <>            
+        <NextSeo
+                title={article.title}
+                description={article.desc}
+            openGraph={{
+                title: article.title,
+                description: article.desc,
+                url: `https://cookforadventure${article.link}`,
+                type: 'article',
+                article: {
+                    publishedTime: new Date(article.date).toISOString(),
+                    tags: article.tags || [],
+                },
+                images: [
+                    {
+                        url: `https://cookforadventure${article.img}`,
+                        width: 850,
+                        height: 650,
+                        alt: `Cover picture of article ${article.title}`,
+                    },
+                ],
+            }}
+        />
+            <Head background={article.img} title={article.title} subtitle={article.desc}/>
             <Section>
                 <TagContainer>
-                    <Tag backgroundColor={theme.colors.LIGHT_RED} color={theme.colors.RED}>{adventure.kms} kms</Tag>
-                    <Tag backgroundColor={theme.colors.LIGHT_ORANGE} color={theme.colors.ORANGE}>{adventure.days} jours</Tag>
-                    <Tag backgroundColor={theme.colors.LIGHT_BLUE} color={theme.colors.BLUE}>{adventure.elevation}m <FontAwesomeIcon icon={faLongArrowAltUp} transform={{ rotate: 42 }}/></Tag>
+                    <Tag backgroundColor={theme.colors.LIGHT_RED} color={theme.colors.RED}>{article.kms} kms</Tag>
+                    <Tag backgroundColor={theme.colors.LIGHT_ORANGE} color={theme.colors.ORANGE}>{article.days} jours</Tag>
+                    <Tag backgroundColor={theme.colors.LIGHT_BLUE} color={theme.colors.BLUE}>{article.elevation}m <FontAwesomeIcon icon={faLongArrowAltUp} transform={{ rotate: 42 }}/></Tag>
                 </TagContainer>
             </Section>
-            <Section id={adventure.slug}>
-                <ReactMarkdown source={adventure.content} renderers={{
+            <Section id={article.slug}>
+                <ReactMarkdown source={article.content} renderers={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
                     image: Image,
@@ -67,7 +90,7 @@ const Adventure = ({ adventure, theme }) => {
                 }} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">
-                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/adventure-recipes'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/adventure-products'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
+                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/nutrition'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/adventure-products'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
                 <SectionParagraph>Sans oublier les <Link href={'/adventures'}><a aria-label="adventures">récits d'aventures</a></Link> !</SectionParagraph>
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
@@ -81,7 +104,7 @@ export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
     return {
         props: {
-            adventure: getAnAdventure(slug),
+            article: getAnAdventure(slug),
         },
     };
 };

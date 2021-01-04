@@ -3,11 +3,12 @@ slug: gr30-ultra-leger
 lang: fr
 title: Le GR30 en ultra léger
 date: 10/20/2020
-img: https://cfa-images.s3.eu-west-3.amazonaws.com/20201010_142205.jpg
+img: /static/images/gr30-cover.webp
 desc: Les lacs et volcans d'Auvergne dans leurs couleurs d'automne.
 days: 5
 elevation: 5644
 kms: 195
+tags: ['gr30', 'auvergne', 'récits', 'aventure', 'ultra léger']
 ---
 
 ### Pourquoi le choix du GR30 ?
@@ -85,7 +86,7 @@ Et côté trousse de toilette:
 - Labello (10g)
 - Opinel n°8 (44g)
 
-Il y avait bien sûr les [barres de céréales](/adventure-recipes/barres-avoine-epautre) pour un total de 600g, et j'ai voulu prendre un extra afin de tester sur le terrain : **l'ensemble Sawyer pour la filtration de l'eau** (109g).
+Il y avait bien sûr les [barres de céréales](/nutrition/barres-avoine-epautre) pour un total de 600g, et j'ai voulu prendre un extra afin de tester sur le terrain : **l'ensemble Sawyer pour la filtration de l'eau** (109g).
 
 Le tout dans **sac Waa Ultra 20L, son extension avant de 1L et les gourdes** (980g) duquel j'ai enlevé la plaque de renfort pour le dos (60g), remplacée par le tarp ! Un sac que j'ai trouvé vraiment top avec toutes ses possibilités de rangements. ***Je vous proposerai la présentation du sac prochainement.***
 
@@ -130,7 +131,7 @@ Sardines qui ne s'enfoncent pas, faitière trop courte, toile mal tendue, terrai
 
 ### En route vers St Nectaire !
 
-Après une [barre de céréales](/adventure-recipes/barres-avoine-epautre) en guise de petit déj, nous attaquons la route aux alentours de 7h30.
+Après une [barre de céréales](/nutrition/barres-avoine-epautre) en guise de petit déj, nous attaquons la route aux alentours de 7h30.
 
 C'est une journée sous la pluie que nous allons passer, assez éprouvante au vu du repos inexistant ! Mais les jambes sont présentes pour courir dans la forêt, aux alentours du puy de la vache, où nous rencontrons un groupe de coureurs avec lequel nous partagerons quelques kilomètres. Eux aussi sont interloqués par notre équipement et surtout par la baguette que l'on se trimbale depuis la veille !
 
@@ -160,7 +161,7 @@ Après avoir repris des forces et fait le plein au supermarché, nous reprenons 
 
 ### Une place de rêve pour admirer le couché de soleil
 
-Arrivé à Compains et après avoir avalé une [barre de céréales](/adventure-recipes/barres-avoine-epautre), nous décidons de continuer à marcher quelques kilomètres pour trouver l'emplacement idéal. Décidés à ne pas reproduire les mêmes erreurs qu'à la première nuit, nous sommes prudents sur l'analyse du terrain ! Malheureusement, nous ne trouvons pas beaucoup de bois pour allumer un feu depuis la montée, mais il faut faire avec. L'emplacement est trouvé quelques mètres plus loin, je devrais réussir à tendre la faitière à cet endroit pendant que Ludovic part à la recherche de quelques branches: un repas de rêve à base de St Nectaire fondu nous attends !
+Arrivé à Compains et après avoir avalé une [barre de céréales](/nutrition/barres-avoine-epautre), nous décidons de continuer à marcher quelques kilomètres pour trouver l'emplacement idéal. Décidés à ne pas reproduire les mêmes erreurs qu'à la première nuit, nous sommes prudents sur l'analyse du terrain ! Malheureusement, nous ne trouvons pas beaucoup de bois pour allumer un feu depuis la montée, mais il faut faire avec. L'emplacement est trouvé quelques mètres plus loin, je devrais réussir à tendre la faitière à cet endroit pendant que Ludovic part à la recherche de quelques branches: un repas de rêve à base de St Nectaire fondu nous attends !
 
 ![Campement monté et feu délimité pour notre repas du soir](https://cfa-images.s3.eu-west-3.amazonaws.com/20201012_195222.jpg)
 

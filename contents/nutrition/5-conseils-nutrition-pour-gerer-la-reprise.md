@@ -5,6 +5,7 @@ title: 5 conseils nutrition pour gérer la reprise
 date: 12/28/2020
 img: "/static/images/nutrition.webp"
 desc: Entre fêtes de fin d'année et confinements successifs, comment reprendre la main ?
+tags: ['nutrition', 'effort', 'astuces', 'conseils', 'sport', 'reprise']
 ---
 
 Notre rythme de vie a été **fortement perturbé** par plusieurs confinements imposés. Les déplacements et les occasions de faire des activités hors domicile ont été restreints pendant plusieurs mois et certains sont d'ailleurs encore impactés.
@@ -35,7 +36,7 @@ Mon point faible c'est le **chocolat** et entre vous et moi, je serai capable d'
 
 Bon... C'est pas pour autant qu'il faut se priver d'une collation, surtout avant un entraînement un peu exigeant ou pour couper l'après-midi en deux.
 
-En manque d'inspirations ? Ça tombe bien, [je vous présente sur ce blog une multitude de recettes](/adventure-recipes) !
+En manque d'inspirations ? Ça tombe bien, [je vous présente sur ce blog une multitude de recettes](/nutrition) !
 
 Mes collations préférées sont les oléagineux, notamment les amandes, pour leur richesse énergétique: *j'en ai toujours un paquet au bureau pour les creux*. Protéines (19 g), glucides (39 g), lipides (53 g) dont acide gras mono et poly-insaturés, calcium, potassium, fer, sans parler des [fibres qui participent grandement à la bonne absorbtion des nutriments et au renforcement de vos défences imunitaires](https://www.irbms.com/fibres-alimentaires-effet-sante-sportif/)... Elles seront un partenaire de choix pour vous aider à performer. 
 

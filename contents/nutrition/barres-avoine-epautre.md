@@ -3,12 +3,13 @@ slug: barres-avoine-epautre
 lang: fr
 title: Barres du sportif
 date: 10/21/2020
-img: "https://images.unsplash.com/photo-1550436566-df63e63a1585?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80"
+img: "/static/images/cereal-bars.webp"
 desc: À l'épreuve des 200 km du tour des volcans d'Auvergne, ces barres n'étaient pas de trop !
 protein: 11
 carbohydrate: 46
 lipid: 17
 transport: 4
+tags: ['nutrition', 'sport', 'cuisine', 'recette', 'barres de céréales']
 ---
 
 ### Cette première après-midi magnifique

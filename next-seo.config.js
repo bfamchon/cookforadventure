@@ -1,6 +1,6 @@
 export default {
     title: 'Cook For Adventure',
-    description: 'Une recette, une aventure.',
+    description: "Conseils nutrition et alimenation de l'effort.",
     canonical: 'https://cookforadventure.com/',
     openGraph: {
         type: 'website',
@@ -9,7 +9,7 @@ export default {
         title:
             "Cook For Adventure",
         description:
-            "Une recette, une aventure.",
+            "Conseils nutrition et alimenation de l'effort.",
         images: [
             
                 {

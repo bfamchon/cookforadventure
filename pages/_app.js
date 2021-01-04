@@ -1,6 +1,6 @@
 import 'styles/global.css';
 
-import { DefaultSeo, SocialProfileJsonLd } from 'next-seo';
+import { BlogJsonLd, DefaultSeo, SocialProfileJsonLd } from 'next-seo';
 import SEO from 'next-seo.config';
 
 import App from 'next/app';
@@ -42,6 +42,17 @@ const MyApp = ({ Component, pageProps }) => {
                     'https://www.strava.com/athletes/25128286',
                     'https://www.instagram.com/bfamchon',
                 ]}
+            />
+            <BlogJsonLd
+                url="https://cookforadventure.com"
+                title="Cook For Adventure"
+                images={[
+                    'https://cookforadventure.com/static/images/seo-miniature.webp',
+                ]}
+                datePublished={new Date().toISOString()}
+                dateModified={new Date().toISOString()}
+                authorName="Baptiste"
+                description="Conseils nutrition et alimenation de l'effort."
             />
             <Layout>
                 <Component {...pageProps} />

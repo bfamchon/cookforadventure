@@ -11,6 +11,7 @@ import ReactMarkdown from 'react-markdown';
 import styled, { withTheme } from 'styled-components';
 
 import { getAllPaths, getARecipe } from 'lib/recipes';
+import { NextSeo } from 'next-seo';
 
 const Image = styled.img`
     display: flex;
@@ -46,23 +47,45 @@ const HeadingLevelToComponent = (props) => {
     }
 }
 
-const AdventureRecipe = ({ recipe, theme }) => {
+const AdventureRecipe = ({ article, theme }) => {
     const calcKcal = (p, l, g) => l*9 + (p + g) *4
     return (
         <>
-            <Head background={recipe.img} title={recipe.title} subtitle={recipe.desc}/>
+            <NextSeo
+                title={article.title}
+                description={article.desc}
+                openGraph={{
+                    title: article.title,
+                    description: article.desc,
+                    url: `https://cookforadventure${article.link}`,
+                    type: 'article',
+                    article: {
+                        publishedTime: new Date(article.date).toISOString(),
+                        tags: article.tags || [],
+                    },
+                    images: [
+                        {
+                            url: `https://cookforadventure${article.img}`,
+                            width: 850,
+                            height: 650,
+                            alt: `Cover picture of article ${article.title}`,
+                        },
+                    ],
+                }}
+            />
+            <Head background={article.img} title={article.title} subtitle={article.desc}/>
             
-            {recipe.protein && <Section>
+            {article.protein && <Section>
                 <TagContainer>
-                    <Tag backgroundColor={theme.colors.LIGHT_RED} color={theme.colors.RED}>Protéines {recipe.protein}g</Tag>
-                    <Tag backgroundColor={theme.colors.LIGHT_ORANGE} color={theme.colors.ORANGE}>Glucides {recipe.carbohydrate}g</Tag>
-                    <Tag backgroundColor={theme.colors.LIGHT_BLUE} color={theme.colors.BLUE}>Lipides {recipe.lipid}g</Tag>
-                    <Tag backgroundColor={theme.colors.LIGHT_BLUE} color={theme.colors.BLUE}>Kcal {calcKcal(recipe.protein,recipe.lipid,recipe.carbohydrate)}</Tag>
+                    <Tag backgroundColor={theme.colors.LIGHT_RED} color={theme.colors.RED}>Protéines {article.protein}g</Tag>
+                    <Tag backgroundColor={theme.colors.LIGHT_ORANGE} color={theme.colors.ORANGE}>Glucides {article.carbohydrate}g</Tag>
+                    <Tag backgroundColor={theme.colors.LIGHT_BLUE} color={theme.colors.BLUE}>Lipides {article.lipid}g</Tag>
+                    <Tag backgroundColor={theme.colors.LIGHT_BLUE} color={theme.colors.BLUE}>Kcal {calcKcal(article.protein,article.lipid,article.carbohydrate)}</Tag>
                 </TagContainer>
                 <SectionParagraph center><em>* Valeurs au 100g</em></SectionParagraph>
             </Section>}
-            <Section id={recipe.slug}>
-                <ReactMarkdown source={recipe.content} renderers={{
+            <Section id={article.slug}>
+                <ReactMarkdown source={article.content} renderers={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
                     image: Image,
@@ -70,7 +93,7 @@ const AdventureRecipe = ({ recipe, theme }) => {
                 }} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">
-                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/adventure-recipes'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/adventure-products'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
+                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/nutrition'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/adventure-products'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
                 <SectionParagraph>Sans oublier les <Link href={'/adventures'}><a aria-label="adventures">récits d'aventures</a></Link> !</SectionParagraph>
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
@@ -84,10 +107,10 @@ export default withTheme(AdventureRecipe);
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
 
-    const recipe = getARecipe(slug);
+    const article = getARecipe(slug);
     return {
         props: {
-            recipe: getARecipe(slug),
+            article: getARecipe(slug),
         },
     };
 };

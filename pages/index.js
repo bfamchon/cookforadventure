@@ -18,10 +18,10 @@ const Image = styled.img`
 export default function Home({articles}) {
   return (
     <>
-      <Head background={'/static/images/home.webp'} subtitle={'Une recette, une aventure'}></Head>
+      <Head background={'/static/images/home.webp'} subtitle={"Conseils nutrition et alimenation de l'effort."}></Head>
       <Section id="made-for-you" title="Fait pour vous">
         <SectionParagraph>Si tu es arrivé sur Cook For Adventure, c’est que nous avons déjà plein de choses en commun. On aime l’aventure, on aime les bons plats, les plats rapides à préparer et on s’intéresse aux apports de ce que l’on consomme pendant le sport.</SectionParagraph>
-        <SectionParagraph>Ça tombe bien : je te présente ici des <Link href={'/adventure-recipes'}><a aria-label="recettes">recettes simples</a></Link>, des recettes enrichies d’informations nutritionnelles, des recettes que j’ai testées personnellement sur mes <Link href={'/adventures'}><a aria-label="récits d'aventure">randonnées et trails en autosuffisance.</a></Link> Et si tu te demandes comment cuisiner et transporter tes vivres quand tu pars à l'aventure, les <Link href={'/adventure-products'}><a aria-label="tests de produits">tests de produits</a></Link> répondront à tes attentes !</SectionParagraph>
+        <SectionParagraph>Ça tombe bien : je te présente ici des <Link href={'/nutrition'}><a aria-label="recettes">recettes simples</a></Link>, des recettes enrichies d’informations nutritionnelles, des recettes que j’ai testées personnellement sur mes <Link href={'/adventures'}><a aria-label="récits d'aventure">randonnées et trails en autosuffisance.</a></Link> Et si tu te demandes comment cuisiner et transporter tes vivres quand tu pars à l'aventure, les <Link href={'/adventure-products'}><a aria-label="tests de produits">tests de produits</a></Link> répondront à tes attentes !</SectionParagraph>
         <SectionParagraph><Link href={'/about'}><a aria-label="à propos"><i>En savoir plus sur mes motivations...</i></a></Link></SectionParagraph>
         <SectionParagraph>Alors... Pour ne manquez aucune sortie, accéder à du contenu exclusif et faire partie de la communauté... Inscrit toi à la newsletter !</SectionParagraph>
       </Section>

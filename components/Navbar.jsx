@@ -34,7 +34,7 @@ const Navigation = () => {
         <Link href={'/'}>
           <a>Accueil</a>
         </Link>
-        <Link href={'/adventure-recipes'}>
+        <Link href={'/nutrition'}>
           <a>Nutrition</a>
         </Link>
         <Link href={'/adventures'}>
