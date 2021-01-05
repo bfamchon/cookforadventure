@@ -29,7 +29,7 @@ export default function Home({articles}) {
         <Newsletter />
       </Section>
       <Section id="made-with-love" title="Fait par un passionné">
-                <Image src="/static/images/megnature.webp" />
+        <Image src="/static/images/megnature.webp" alt="Baptiste, créateur du blog Cook For Adventure" />
                 <SectionParagraph center><i>J'me présente, je m'appelle Baptiste !</i></SectionParagraph>
                 <SectionParagraph>Et comme toi, j'aime les <strong>choses simples</strong> de la vie: partir à l'aventure et manger. Ce blog en est la bonne représentation !</SectionParagraph>
                 <SectionParagraph>Pour moi, la cuisine est d'abord un <strong>moyen de partager</strong>, faire plaisir et se <strong>faire plaisir</strong>. En l'associant au sport, je te partage ici mes deux passions à travers une multitude d'articles: la nutrition sportive n'aura plus de secrets pour toi !</SectionParagraph>
