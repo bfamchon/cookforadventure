@@ -13,6 +13,8 @@ const Input = styled.input`
     width: 300px;
 `;
 
+const Label = styled.label``;
+
 const Button = styled.button`
     ${props => props.theme.button}
 `;
@@ -49,8 +51,8 @@ const Newsletter = ({}) => {
     return (
         <Group onSubmit={handleSubmit} method="POST">
             <React.Fragment>
-                <Input type="email" placeholder="example@mail.com" value={email} onChange={handleEmailChange} required="required"/>
-                <Button type="submit" disabled={loading}>{loading ? <i className="fas fa-circle-notch fa-spin"></i> : "S'inscrire"}</Button>
+                <Input id="newsletter-input" type="email" placeholder="example@mail.com" value={email} onChange={handleEmailChange} required="required"/>
+                <Button type="submit" disabled={loading}><Label for="newsletter-input">{loading ? <i className="fas fa-circle-notch fa-spin"></i> : "S'inscrire"}</Label></Button>
             </React.Fragment>
         </Group>);
 };

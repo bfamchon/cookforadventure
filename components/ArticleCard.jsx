@@ -80,7 +80,7 @@ const ArticleCard = ({ article : {link, slug, title, img, desc, draft}}) => {
             {!draft && <Link href={link} >
                 <a>
                     <Container>
-                        <Image src={img} id={slug} />
+                        <Image src={img} id={slug} alt={`Image de l'article "${title}"`}/>
                         <CardContent>
                             <Title>{title}</Title>
                             <DescriptionContainer>
