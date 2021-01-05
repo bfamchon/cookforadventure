@@ -41,6 +41,7 @@ export default class MyDocument extends Document {
               {/* enable analytics script only for production */}
               {isProduction && (
                 <>
+                  <script data-ad-client="ca-pub-1380169426555104" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                   <script
                     async
                     src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
