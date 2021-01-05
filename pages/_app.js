@@ -1,6 +1,6 @@
 import 'styles/global.css';
 
-import { BlogJsonLd, DefaultSeo, SocialProfileJsonLd } from 'next-seo';
+import { BlogJsonLd, DefaultSeo, LogoJsonLd, SocialProfileJsonLd } from 'next-seo';
 import SEO from 'next-seo.config';
 
 import App from 'next/app';
@@ -41,6 +41,7 @@ const MyApp = ({ Component, pageProps }) => {
                 sameAs={[
                     'https://www.strava.com/athletes/25128286',
                     'https://www.instagram.com/bfamchon',
+                    'https://www.facebook.com/cookforadventure/',
                 ]}
             />
             <BlogJsonLd
@@ -53,6 +54,10 @@ const MyApp = ({ Component, pageProps }) => {
                 dateModified={new Date().toISOString()}
                 authorName="Baptiste"
                 description="Conseils nutrition et alimenation de l'effort."
+            />
+            <LogoJsonLd
+                logo="https://cookforadventure.com/static/images/logo-cfa.png"
+                url="https://cookforadventure.com"
             />
             <Layout>
                 <Component {...pageProps} />

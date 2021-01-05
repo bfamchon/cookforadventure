@@ -19,7 +19,7 @@ Malgré ça, votre corps n'est **pas aussi rapide à l'adaptation**: vous avez f
 *Reprenons tout cela en main avec ces 5 conseils !*
 
 ### Écouter son corps... Pas son cerveau !
-Vous n'avez pas forcément constaté une baisse d'apétit allant avec la baisse de vos entraînements... Et c'est normal ! 
+Vous n'avez pas forcément constaté une baisse d'appétit allant avec la baisse de vos entraînements... Et c'est normal ! 
 
 La première raison est **l'habitude**: vous avez géré vos repas toute l'année en adéquation avec un entraîenement plus intense et votre cerveau à besoin d'un temps d'adaptation avant de prendre un nouveau rythme.
 La deuxième raison est **mentale**, posez-vous la question *"Est-ce que j'ai vraiment faim ?"*. Souvent, il s'agit plutôt une **envie compulsive liée au stress** dû à un manque d'exercice, au télétravail, un besoin de relâchement, de l'ennui... Et parfois même à cause d'un manque d'eau, pensez toujours à boire un verre ou deux quand cette envie vous prend ;)
