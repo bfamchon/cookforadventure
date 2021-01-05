@@ -6,6 +6,8 @@ import SectionParagraph from 'components/section/paragraph'
 import Articles from 'components/Articles'
 import { getAllProducts } from 'lib/products';
 
+import { NextSeo } from 'next-seo';
+
 export default function AdventureProducts({ products }) {
     return (
         <>
