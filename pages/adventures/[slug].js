@@ -54,6 +54,7 @@ const Adventure = ({ article, theme }) => {
         <NextSeo
                 title={article.title}
                 description={article.desc}
+                canonical={`https://cookforadventure.com${article.link}`}
             openGraph={{
                 title: article.title,
                 description: article.desc,

@@ -13,6 +13,7 @@ export default function Adventures({ adventures }) {
             <NextSeo
                 title="Récits d'aventure"
                 description="Vous retrouverez ici tous mes récits !"
+                canonical='https://cookforadventure.com/adventures'
             />
             <Head background={'/static/images/adventures.webp'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
             <Section id="last-recipes" title="Les derniers récits">

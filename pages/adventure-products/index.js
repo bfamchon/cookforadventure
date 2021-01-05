@@ -9,6 +9,11 @@ import { getAllProducts } from 'lib/products';
 export default function AdventureProducts({ products }) {
     return (
         <>
+            <NextSeo
+                title="Tests produits"
+                description="Vous retrouverez ici tous les tests de produits dédiés à l'aventure !"
+                canonical='https://cookforadventure.com/adventure-products'
+            />
             <Head background={'/static/images/adventure-products.webp'} subtitle={"Emporte avec toi le minimum, mais choisis ce minimum avec beaucoup d'importance !"}/>
             <Section id="last-products" title="Les dernières produits testés">
                 {products && <Articles articles={products} />}

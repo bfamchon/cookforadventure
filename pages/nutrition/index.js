@@ -13,6 +13,7 @@ export default function AdventureRecipes({ recipes }) {
             <NextSeo
                 title="La nutrition dédiée aux sportifs"
                 description="Vous retrouverez ici tous les conseils nutrition et recettes dédiées à l'effort !"
+                canonical='https://cookforadventure.com/nutrition'
             />
             <Head background={'/static/images/nutrition.webp'} subtitle={"Manger mieux, pour avancer plus loin !"}/>
             <Section id="last-recipes" title="Les derniers articles">
