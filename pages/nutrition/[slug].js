@@ -77,7 +77,7 @@ const AdventureRecipe = ({ article, theme, featured }) => {
             />
             <Head background={article.img} title={article.title} subtitle={article.desc}/>
             
-            {article.protein && <Section>
+            {article.protein && <Section id="article-details">
                 <TagContainer>
                     <Tag backgroundColor={theme.colors.LIGHT_RED} color={theme.colors.RED}>Protéines {article.protein}g</Tag>
                     <Tag backgroundColor={theme.colors.LIGHT_ORANGE} color={theme.colors.ORANGE}>Glucides {article.carbohydrate}g</Tag>
@@ -100,7 +100,7 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
             </Section>
-            {featured.length > 0 && <Section id="featured" title="Sur la même thématique">
+            {featured.length > 0 && <Section id="featured" title="Sur la même thématique" marginLR={120}>
                 <Articles articles={featured} />
             </Section>}
         </>

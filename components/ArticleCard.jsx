@@ -19,8 +19,8 @@ const Spacer = styled.div`
 const Container = styled.article`
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     height: 410px;
     box-shadow: 0px 0px 3px 0px white;
 `;
@@ -105,12 +105,11 @@ const ArticleCard = ({ article : {link, slug, title, img, desc, draft}}) => {
 };
 
  ArticleCard.propTypes = {
-    article: PropTypes.objectOf({
+    article: PropTypes.shape({
         link: PropTypes.string.isRequired,
         slug: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         img: PropTypes.string.isRequired,
-        lang: PropTypes.string,
         desc: PropTypes.string,
         draft: PropTypes.bool,
     }).isRequired,

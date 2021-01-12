@@ -17,7 +17,7 @@ export default function AdventureProducts({ products }) {
                 canonical='https://cookforadventure.com/adventure-products'
             />
             <Head background={'/static/images/adventure-products.webp'} subtitle={"Emporte avec toi le minimum, mais choisis ce minimum avec beaucoup d'importance !"}/>
-            <Section id="last-products" title="Les dernières produits testés">
+            <Section id="last-products" title="Les dernières produits testés" marginLR={120}>
                 {products && <Articles articles={products} />}
                 {products.length === 0 && <SectionParagraph center>En cours d'écriture !</SectionParagraph>}
             </Section>

@@ -9,7 +9,7 @@ import Newsletter from 'components/Newsletter';
 
 import ReactMarkdown from 'react-markdown';
 import styled, { withTheme } from 'styled-components';
-import { getAllPaths, getAnArticle } from 'lib/articles';
+import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
 
 const Image = styled.img`
     display: flex;
@@ -45,12 +45,12 @@ const HeadingLevelToComponent = (props) => {
     }
 }
 
-export default function AdventureProduct({ product }) {
+export default function AdventureProduct({ article, featured }) {
     return (
         <>
-            <Head background={product.img} title={product.title} subtitle={product.desc}/>
-            <Section id={product.slug}>
-                <ReactMarkdown source={product.content} renderers={{
+            <Head background={article.img} title={article.title} subtitle={article.desc}/>
+            <Section id={article.slug}>
+                <ReactMarkdown source={article.content} renderers={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
                     image: Image,
@@ -63,6 +63,9 @@ export default function AdventureProduct({ product }) {
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
             </Section>
+            {featured.length > 0 && <Section id="featured" title="Sur la même thématique" marginLR={120}>
+                <Articles articles={featured} />
+            </Section>}
         </>
     )
 }
@@ -70,9 +73,11 @@ export default function AdventureProduct({ product }) {
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
     const subject = 'adventure-products';
+    const article = getAnArticle(slug, subject);
     return {
         props: {
-            product: getAnArticle(slug, subject),
+            article,
+            featured: getLatestArticles(3, subject).filter(a => a.slug !== article.slug),
         },
     };
 };

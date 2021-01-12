@@ -16,7 +16,7 @@ export default function AdventureRecipes({ recipes }) {
                 canonical='https://cookforadventure.com/nutrition'
             />
             <Head background={'/static/images/nutrition.webp'} subtitle={"Manger mieux, pour avancer plus loin !"}/>
-            <Section id="last-recipes" title="Les derniers articles">
+            <Section id="last-recipes" title="Les derniers articles" marginLR={120}>
                 <Articles articles={recipes} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">

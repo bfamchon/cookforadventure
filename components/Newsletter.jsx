@@ -52,7 +52,7 @@ const Newsletter = ({}) => {
         <Group onSubmit={handleSubmit} method="POST">
             <React.Fragment>
                 <Input id="newsletter-input" type="email" placeholder="example@mail.com" value={email} onChange={handleEmailChange} required="required"/>
-                <Button type="submit" disabled={loading}><Label for="newsletter-input">{loading ? <i className="fas fa-circle-notch fa-spin"></i> : "S'inscrire"}</Label></Button>
+                <Button type="submit" disabled={loading}><Label htmlFor="newsletter-input">{loading ? <i className="fas fa-circle-notch fa-spin"></i> : "S'inscrire"}</Label></Button>
             </React.Fragment>
         </Group>);
 };

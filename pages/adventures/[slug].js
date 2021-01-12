@@ -12,7 +12,7 @@ import { faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { NextSeo } from 'next-seo';
-import { getAllPaths, getAnArticle } from 'lib/articles';
+import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
 
 const Image = styled.img`
     display: flex;
@@ -48,7 +48,7 @@ const HeadingLevelToComponent = (props) => {
     }
 }
 
-const Adventure = ({ article, theme }) => {
+const Adventure = ({ article, theme, featured }) => {
     return (
         <>            
         <NextSeo
@@ -96,6 +96,9 @@ const Adventure = ({ article, theme }) => {
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
             </Section>
+            {featured.length > 0 && <Section id="featured" title="Sur la même thématique" marginLR={120}>
+                <Articles articles={featured} />
+            </Section>}
         </>
     )
 }
@@ -104,9 +107,11 @@ export default withTheme(Adventure);
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
     const subject = 'adventures';
+    const article = getAnArticle(slug, subject);
     return {
         props: {
-            article: getAnArticle(slug, subject),
+            article,
+            featured: getLatestArticles(3, subject).filter(a => a.slug !== article.slug),
         },
     };
 };

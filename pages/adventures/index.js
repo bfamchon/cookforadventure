@@ -16,7 +16,7 @@ export default function Adventures({ adventures }) {
                 canonical='https://cookforadventure.com/adventures'
             />
             <Head background={'/static/images/adventures.webp'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
-            <Section id="last-recipes" title="Les derniers récits">
+            <Section id="last-recipes" title="Les derniers récits" marginLR={120}>
                 <Articles articles={adventures} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">
