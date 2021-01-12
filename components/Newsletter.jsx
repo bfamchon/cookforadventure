@@ -6,11 +6,13 @@ const Group = styled.form`
     display: flex;
     align-self: center;
     flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
 `;
 
 const Input = styled.input`
     ${props => props.theme.input}
-    width: 300px;
+    width: 100%;
 `;
 
 const Label = styled.label``;
