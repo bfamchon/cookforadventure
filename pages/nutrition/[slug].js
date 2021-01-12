@@ -10,8 +10,9 @@ import Newsletter from 'components/Newsletter';
 import ReactMarkdown from 'react-markdown';
 import styled, { withTheme } from 'styled-components';
 
-import { getAllPaths, getARecipe } from 'lib/recipes';
 import { NextSeo } from 'next-seo';
+import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
+import Articles from 'components/Articles';
 
 const Image = styled.img`
     display: flex;
@@ -47,7 +48,7 @@ const HeadingLevelToComponent = (props) => {
     }
 }
 
-const AdventureRecipe = ({ article, theme }) => {
+const AdventureRecipe = ({ article, theme, featured }) => {
     const calcKcal = (p, l, g) => l*9 + (p + g) *4
     return (
         <>
@@ -99,6 +100,9 @@ const AdventureRecipe = ({ article, theme }) => {
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
             </Section>
+            {featured.length > 0 && <Section id="featured" title="Sur la même thématique">
+                <Articles articles={featured} />
+            </Section>}
         </>
     )
 }
@@ -107,17 +111,20 @@ export default withTheme(AdventureRecipe);
 
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
-
-    const article = getARecipe(slug);
+    const subject = 'nutrition';
+    const article = getAnArticle(slug, subject);
     return {
         props: {
-            article: getARecipe(slug),
+            article,
+            featured: getLatestArticles(3, subject).filter(a => a.slug !== article.slug),
         },
     };
 };
 export async function getStaticPaths() {
+    const subject = 'nutrition';
+
     return {
-        paths : getAllPaths(),
+        paths : getAllPaths(subject),
         fallback: false,
     };
 }

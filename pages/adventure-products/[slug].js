@@ -9,8 +9,7 @@ import Newsletter from 'components/Newsletter';
 
 import ReactMarkdown from 'react-markdown';
 import styled, { withTheme } from 'styled-components';
-
-import { getAllPaths, getAProduct } from 'lib/products';
+import { getAllPaths, getAnArticle } from 'lib/articles';
 
 const Image = styled.img`
     display: flex;
@@ -70,15 +69,17 @@ export default function AdventureProduct({ product }) {
 
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
+    const subject = 'adventure-products';
     return {
         props: {
-            product: getAProduct(slug),
+            product: getAnArticle(slug, subject),
         },
     };
 };
 export async function getStaticPaths() {
+    const subject = 'adventure-products';
     return {
-        paths : getAllPaths(),
+        paths : getAllPaths(subject),
         fallback: false,
     };
 }

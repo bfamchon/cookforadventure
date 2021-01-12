@@ -4,8 +4,8 @@ import Newsletter from 'components/Newsletter'
 import Section from 'components/section'
 import SectionParagraph from 'components/section/paragraph'
 import Articles from 'components/Articles'
-import { getAllRecipes } from 'lib/recipes';
 import { NextSeo } from 'next-seo';
+import { getAllArticlesAbout } from 'lib/articles'
 
 export default function AdventureRecipes({ recipes }) {
     return (
@@ -32,7 +32,7 @@ export default function AdventureRecipes({ recipes }) {
 export const getStaticProps = async () => {
     return {
         props: {
-            recipes: getAllRecipes(),
+            recipes: getAllArticlesAbout('nutrition'),
         },
     };
 };

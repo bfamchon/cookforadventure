@@ -11,8 +11,8 @@ import styled, {withTheme} from 'styled-components';
 import { faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { getAllPaths, getAnAdventure } from 'lib/adventures';
 import { NextSeo } from 'next-seo';
+import { getAllPaths, getAnArticle } from 'lib/articles';
 
 const Image = styled.img`
     display: flex;
@@ -75,7 +75,7 @@ const Adventure = ({ article, theme }) => {
             }}
         />
             <Head background={article.img} title={article.title} subtitle={article.desc}/>
-            <Section>
+            <Section id="adventure-details">
                 <TagContainer>
                     <Tag backgroundColor={theme.colors.LIGHT_RED} color={theme.colors.RED}>{article.kms} kms</Tag>
                     <Tag backgroundColor={theme.colors.LIGHT_ORANGE} color={theme.colors.ORANGE}>{article.days} jours</Tag>
@@ -103,15 +103,18 @@ export default withTheme(Adventure);
 
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
+    const subject = 'adventures';
     return {
         props: {
-            article: getAnAdventure(slug),
+            article: getAnArticle(slug, subject),
         },
     };
 };
 export async function getStaticPaths() {
+    const subject = 'adventures';
+
     return {
-        paths : getAllPaths(),
+        paths : getAllPaths(subject),
         fallback: false,
     };
 }
