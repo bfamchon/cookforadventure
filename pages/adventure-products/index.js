@@ -35,7 +35,7 @@ export const getStaticProps = async () => {
     const subject = 'adventure-products';
     return {
         props: {
-            products: getAllArticlesAbout(subject),
+            products: [], //getAllArticlesAbout(subject),
         },
     };
 };
