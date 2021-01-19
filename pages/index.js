@@ -44,7 +44,7 @@ export default function Home({articles}) {
 export const getStaticProps = async () => {
   return {
     props: {
-      articles: getLatestPosts(3),
+      articles: getLatestPosts(6),
     },
   };
 };

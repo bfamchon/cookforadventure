@@ -8,7 +8,7 @@ desc: Les lacs et volcans d'Auvergne dans leurs couleurs d'automne.
 days: 5
 elevation: 5644
 kms: 195
-tags: ['gr30', 'auvergne', 'récits', 'aventure', 'ultra léger']
+tags: ['gr30', 'auvergne', 'récits', 'aventure', 'ultra léger', 'randonnée']
 ---
 
 ### Pourquoi le choix du GR30 ?
