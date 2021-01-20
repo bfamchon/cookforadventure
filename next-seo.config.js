@@ -1,5 +1,5 @@
 export default {
-    title: "La nutrition du sport, mes conseils et recettes | Cook For Adventure",
+    title: "Toute la nutrition pour les sportifs | Cook For Adventure",
     description: "Conseils en nutrition et alimentation de l'effort. Sur Cook For Adventure, retrouvez les meilleures recettes et conseils dédiés aux sportifs !",
     additionalMetaTags: [{
         property: 'dc:creator',
