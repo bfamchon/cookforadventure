@@ -3,12 +3,12 @@
     "short_name": "Cook For Adventure",
     "icons": [
         {
-            "src": "https://cookforadventure.com/android-chrome-192x192.png?v=xQ7PaK5rdG",
+            "src": "icons/android-chrome-192x192.png?v=xQ7PaK5rdG",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://cookforadventure.com/android-chrome-512x512.png?v=xQ7PaK5rdG",
+            "src": "icons/android-chrome-512x512.png?v=xQ7PaK5rdG",
             "sizes": "512x512",
             "type": "image/png"
         }
