@@ -11,7 +11,7 @@ export default function AdventureRecipes({ recipes }) {
     return (
         <>
             <NextSeo
-                title="La nutrition dédiée aux sportifs"
+                title="La nutrition et recettes dédiées aux sportifs | Cook For Adventure"
                 description="Vous retrouverez ici tous les conseils en nutrition et recettes dédiées à l'effort !"
                 canonical={`https://cookforadventure.com/nutrition`}
                 openGraph={{

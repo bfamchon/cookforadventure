@@ -11,8 +11,8 @@ export default function Adventures({ adventures }) {
     return (
         <>
             <NextSeo
-                title="Récits d'aventure"
-                description="Vous retrouverez ici tous mes récits !"
+                title="Récits d'aventures sportives | Cook For Adventure"
+                description="Vous retrouverez ici tous mes récits sportifs: randonnées,  courses... Je mets à l'épreuve ce que je vous présente sur le blog !"
                 canonical={`https://cookforadventure.com/adventures`}
                 openGraph={{
                     type: 'website',

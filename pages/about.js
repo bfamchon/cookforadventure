@@ -18,7 +18,7 @@ export default function About() {
     return (
         <>
             <NextSeo
-                title="À propos"
+                title="À propos du blog | Cook For Adventure"
                 description="En savoir plus sur mes motivations et sur le blog Cook For Adventure !"
                 canonical={`https://cookforadventure.com/about`}
                 openGraph={{
