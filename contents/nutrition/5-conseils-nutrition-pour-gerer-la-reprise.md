@@ -57,7 +57,7 @@ Côté repas du midi, je fonctionne au maximum en préparant mes repas à l'avan
 
 Je ne suis pas fan des plats de pates/riz le midi à cause du coup de barre qu'ils procurent quelques heures après... Je préfère en prendre un peu moins et **mettre l'accent sur des légumes**.
 
-Et pour le soir, j'essaie vraiment de garder un repas léger **même après un entraînement** et **facile à digérer** pour ne pas dégrader le sommeil et donc la récupération. Une soupe composée de légume + légumineuse par exemple (lentilles, pois chiche...) associée aux patates douces ! Ou une purée de légumes de saisons, patates poireaux, carottes, légumes verts avec du poisson, un oeuf au plat, une viande blanche... 
+Et pour le soir, j'essaie vraiment de garder un repas léger **même après un entraînement** et **facile à digérer** pour ne pas dégrader le sommeil et donc la récupération. Une soupe composée de légume + légumineuse, par exemple (lentilles, pois chiche...) associée aux patates douces ! D'ailleurs, je vous propose sur le blog [un velouté de patates douces plein de nutriments et 0 déchets](/nutrition/veloute-patates-douces-pois-chiches) !  Ou une purée de légumes de saisons, patates poireaux, carottes, légumes verts avec du poisson, un oeuf au plat, une viande blanche... 
 
 Vous l'avez compris, l'idée est de trouver des aliments qui plaisent et de les décliner (soupe, purée, crus, cuits, avec des épices ou une sauce cuisinée).
 
@@ -69,7 +69,7 @@ On est clairement pas là pour s'avaler une escalope de poulet et des brocolis t
 - Réduire l’acidité de l'organisme
 - Retrouver un équilibre entre les différents minéraux, car on en perd pas mal pendant une séance intense !
 
-*Quand j'ai commencé le trail, j'avais pour habitude de prendre une [petites portion de fruits secs réhydratés dans un bol d'eau](http://mon-naturopathe.com/blog/alimentation/pourquoi-faut-il-faire-tremper-les-amandes-et-les-autres-oleagineux), trouvez ceux qui vous plaisent !*
+*Quand j'ai commencé le trail, j'avais pour habitude de prendre une [petites portion de fruits secs réhydratés dans un bol d'eau](https://mon-naturopathe.com/blog/alimentation/pourquoi-faut-il-faire-tremper-les-amandes-et-les-autres-oleagineux), trouvez ceux qui vous plaisent !*
 
 Chili con carne, lasagnes saumon/épinards, risotto à la courge... Ce genre de plats qui nous font gagner un temps fou, que l'on peut préparer à l'avance pour plusieurs jours, plutôt complet point de vue nutritionel et qui plairont à votre famille. Pourquoi s'en priver ?
 
