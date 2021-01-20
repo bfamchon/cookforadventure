@@ -19,7 +19,7 @@ export default function AdventureRecipes({ recipes }) {
                     locale: 'fr_FR',
                     url: 'https://cookforadventure.com/nutrition',
                     title:
-                        "La nutrition dédiée aux sportifs",
+                        "Conseils nutrition et recettes dédiés au sport | Cook For Adventure",
                     description:
                         "Vous retrouverez ici tous les conseils en nutrition et recettes dédiées à l'effort !",
                     images: [

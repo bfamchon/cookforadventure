@@ -15,9 +15,9 @@ export default {
         locale: 'fr_FR',
         url: 'https://cookforadventure.com/',
         title:
-            "Cook For Adventure",
+            "Toute la nutrition pour les sportifs | Cook For Adventure",
         description:
-            "Conseils en nutrition et alimentation de l'effort.",
+            "Conseils en nutrition et alimentation de l'effort. Sur Cook For Adventure, retrouvez les meilleures recettes et conseils dédiés aux sportifs !",
         images: [
             
                 {

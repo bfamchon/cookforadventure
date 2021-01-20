@@ -26,7 +26,7 @@ export default function About() {
                     locale: 'fr_FR',
                     url: 'https://cookforadventure.com/about',
                     title:
-                        "À propos",
+                        "À propos du blog | Cook For Adventure",
                     description:
                         "En savoir plus sur mes motivations et sur le blog Cook For Adventure !",
                     images: [

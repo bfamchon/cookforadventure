@@ -13,16 +13,16 @@ export default function AdventureProducts({ products }) {
         <>
             <NextSeo
                 title="Tests de produits | Cook For Adventure"
-                description="Sur Cook For Adventure, je teste pour vous des produits dédiés à l'aventure et aux sportifs !"
+                description="Sur Cook For Adventure, je teste pour vous les meilleurs produits dédiés à l'aventure et aux sportifs !"
                 canonical={`https://cookforadventure.com/adventure-products`}
                 openGraph={{
                     type: 'website',
                     locale: 'fr_FR',
                     url: 'https://cookforadventure.com/adventure-products',
                     title:
-                        "Tests de produits",
+                        "Tests de produits | Cook For Adventure",
                     description:
-                        "Vous retrouverez ici tous les tests de produits dédiés à l'aventure !",
+                        "Sur Cook For Adventure, je teste pour vous les meilleurs produits dédiés à l'aventure et aux sportifs !",
                     images: [
 
                         {

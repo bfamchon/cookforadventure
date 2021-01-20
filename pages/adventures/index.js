@@ -19,9 +19,9 @@ export default function Adventures({ adventures }) {
                     locale: 'fr_FR',
                     url: 'https://cookforadventure.com/adventures',
                     title:
-                        "Récits d'aventure",
+                        "Récits d'aventures sportives | Cook For Adventur",
                     description:
-                        "Vous retrouverez ici tous mes récits !",
+                        "VVous retrouverez ici tous mes récits sportifs: randonnées,  courses... Je mets à l'épreuve ce que je vous présente sur le blog !",
                     images: [
 
                         {
