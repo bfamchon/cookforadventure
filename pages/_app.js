@@ -53,7 +53,7 @@ const MyApp = ({ Component, pageProps }) => {
                 datePublished={new Date().toISOString()}
                 dateModified={new Date().toISOString()}
                 authorName="Baptiste"
-                description="Conseils nutrition et alimentation de l'effort."
+                description="Conseils en nutrition et alimentation de l'effort."
             />
             <LogoJsonLd
                 logo="https://cookforadventure.com/static/images/logo-cfa.png"
