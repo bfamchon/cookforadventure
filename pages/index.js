@@ -6,6 +6,7 @@ import SectionParagraph from 'components/section/paragraph'
 import Articles from 'components/Articles'
 import { getLatestPosts } from 'lib/articles';
 import styled from 'styled-components';
+import { NextSeo } from 'next-seo'
 
 const Image = styled.img`
     border-radius: 50%;

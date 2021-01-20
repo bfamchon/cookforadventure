@@ -5,6 +5,11 @@ export default {
         property: 'dc:creator',
         content: 'Baptiste FAMCHON'
     }],
+    twitter: {
+        cardType: 'summary_large_image',
+        site: '@BFamchon',
+        handle: '@BFamchon',
+    },
     openGraph: {
         type: 'website',
         locale: 'fr_FR',
