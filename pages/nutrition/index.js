@@ -13,7 +13,25 @@ export default function AdventureRecipes({ recipes }) {
             <NextSeo
                 title="La nutrition dédiée aux sportifs"
                 description="Vous retrouverez ici tous les conseils en nutrition et recettes dédiées à l'effort !"
-                canonical='https://cookforadventure.com/nutrition'
+                openGraph={{
+                    type: 'website',
+                    locale: 'fr_FR',
+                    url: 'https://cookforadventure.com/nutrition',
+                    title:
+                        "La nutrition dédiée aux sportifs",
+                    description:
+                        "Vous retrouverez ici tous les conseils en nutrition et recettes dédiées à l'effort !",
+                    images: [
+
+                        {
+                            url: 'https://cookforadventure.com/static/images/seo-miniature.webp',
+                                width: 1200,
+                                height: 630,
+                                alt: 'Cook For Adventure miniature image',
+                            },
+                    ],
+                    site_name: 'Cook For Adventure',
+                }}
             />
             <Head background={'/static/images/nutrition.webp'} subtitle={"Manger mieux, pour avancer plus loin !"}/>
             <Section id="last-recipes" title="Les derniers articles" marginLR={120}>

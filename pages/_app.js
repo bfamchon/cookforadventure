@@ -42,6 +42,7 @@ const MyApp = ({ Component, pageProps }) => {
                     'https://www.strava.com/athletes/25128286',
                     'https://www.instagram.com/bfamchon',
                     'https://www.facebook.com/cookforadventure/',
+                    'https://www.pinterest.fr/baptistefamchon'
                 ]}
             />
             <BlogJsonLd

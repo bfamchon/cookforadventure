@@ -20,7 +20,6 @@ export default function About() {
             <NextSeo
                 title="À propos"
                 description="En savoir plus sur mes motivations et sur Cook For Adventure !"
-                canonical= 'https://cookforadventure.com/about'
             />
             <Head background={'/static/images/about.webp'} subtitle={'Aventuriers, Épicuriens, ce site est fait pour vous.'}></Head>
             <Section id="why" title="Manifesto">

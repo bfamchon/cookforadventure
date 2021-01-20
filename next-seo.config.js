@@ -13,8 +13,8 @@ export default {
             
                 {
                 url: 'https://cookforadventure.com/static/images/seo-miniature.webp',
-                    width: 800,
-                    height: 450,
+                    width: 1200,
+                    height: 630,
                     alt: 'Cook for adventure miniature image',
                 },
         ],

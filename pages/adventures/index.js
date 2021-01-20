@@ -13,7 +13,25 @@ export default function Adventures({ adventures }) {
             <NextSeo
                 title="Récits d'aventure"
                 description="Vous retrouverez ici tous mes récits !"
-                canonical='https://cookforadventure.com/adventures'
+                openGraph={{
+                    type: 'website',
+                    locale: 'fr_FR',
+                    url: 'https://cookforadventure.com/adventures',
+                    title:
+                        "Récits d'aventure",
+                    description:
+                        "Vous retrouverez ici tous mes récits !",
+                    images: [
+
+                        {
+                            url: 'https://cookforadventure.com/static/images/seo-miniature.webp',
+                            width: 1200,
+                            height: 630,
+                            alt: 'Cook For Adventure miniature image',
+                        },
+                    ],
+                    site_name: 'Cook For Adventure',
+                }}
             />
             <Head background={'/static/images/adventures.webp'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
             <Section id="last-recipes" title="Les derniers récits" marginLR={120}>
