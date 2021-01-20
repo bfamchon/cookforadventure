@@ -14,6 +14,7 @@ export default function AdventureProducts({ products }) {
             <NextSeo
                 title="Tests de produits"
                 description="Vous retrouverez ici tous les tests de produits dédiés à l'aventure !"
+                canonical={`https://cookforadventure.com/adventure-products`}
                 openGraph={{
                     type: 'website',
                     locale: 'fr_FR',

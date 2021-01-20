@@ -19,7 +19,27 @@ export default function About() {
         <>
             <NextSeo
                 title="À propos"
-                description="En savoir plus sur mes motivations et sur Cook For Adventure !"
+                description="En savoir plus sur mes motivations et sur le blog Cook For Adventure !"
+                canonical={`https://cookforadventure.com/about`}
+                openGraph={{
+                    type: 'website',
+                    locale: 'fr_FR',
+                    url: 'https://cookforadventure.com/about',
+                    title:
+                        "À propos",
+                    description:
+                        "En savoir plus sur mes motivations et sur le blog Cook For Adventure !",
+                    images: [
+
+                        {
+                            url: 'https://cookforadventure.com/static/images/seo-miniature.webp',
+                            width: 1200,
+                            height: 630,
+                            alt: 'Cook For Adventure miniature image',
+                        },
+                    ],
+                    site_name: 'Cook For Adventure',
+                }}
             />
             <Head background={'/static/images/about.webp'} subtitle={'Aventuriers, Épicuriens, ce site est fait pour vous.'}></Head>
             <Section id="why" title="Manifesto">

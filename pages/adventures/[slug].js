@@ -54,6 +54,8 @@ const Adventure = ({ article, theme, featured }) => {
         <NextSeo
                 title={article.title}
                 description={article.desc}
+                canonical={`https://cookforadventure.com${article.link}`}
+
             openGraph={{
                 title: article.title,
                 description: article.desc,
@@ -62,6 +64,10 @@ const Adventure = ({ article, theme, featured }) => {
                 article: {
                     publishedTime: new Date(article.date).toISOString(),
                     tags: article.tags || [],
+                    authors: [
+                        'https://www.facebook.com/cookforadventure/',
+                        'https://www.instagram.com/bfamchon',
+                    ],
                 },
                 images: [
                     {

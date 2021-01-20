@@ -18,6 +18,9 @@ const Image = styled.img`
 export default function Home({articles}) {
   return (
     <>
+      <NextSeo
+        canonical={`https://cookforadventure.com`}
+      />
       <Head background={'/static/images/home.webp'} subtitle={"Conseils en nutrition et alimentation de l'effort."}></Head>
       <Section id="made-for-you" title="Fait pour vous">
         <SectionParagraph>Si tu es arrivé sur Cook For Adventure, c’est que nous avons déjà plein de choses en commun. On aime l’aventure, on aime les bons plats, les plats rapides à préparer et on s’intéresse aux apports de ce que l’on consomme pendant le sport.</SectionParagraph>

@@ -1,6 +1,10 @@
 export default {
     title: 'Cook For Adventure',
     description: "Conseils en nutrition et alimentation de l'effort. Sur Cook For Adventure, retrouvez les meilleures recettes et conseils dédiés aux sportifs !",
+    additionalMetaTags: [{
+        property: 'dc:creator',
+        content: 'Baptiste FAMCHON'
+    }],
     openGraph: {
         type: 'website',
         locale: 'fr_FR',
