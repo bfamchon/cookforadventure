@@ -1,6 +1,6 @@
 export default {
     title: 'Cook For Adventure',
-    description: "Conseils nutrition et alimenation de l'effort. Sur Cook For Adventure, retrouvez les meilleures recettes et conseils dédiés aux sportifs !",
+    description: "Conseils nutrition et alimentation de l'effort. Sur Cook For Adventure, retrouvez les meilleures recettes et conseils dédiés aux sportifs !",
     openGraph: {
         type: 'website',
         locale: 'fr_FR',
@@ -8,7 +8,7 @@ export default {
         title:
             "Cook For Adventure",
         description:
-            "Conseils nutrition et alimenation de l'effort.",
+            "Conseils nutrition et alimentation de l'effort.",
         images: [
             
                 {
