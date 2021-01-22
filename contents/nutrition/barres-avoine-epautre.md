@@ -9,7 +9,52 @@ protein: 11
 carbohydrate: 46
 lipid: 17
 transport: 4
-tags: ['nutrition', 'sport', 'effort', 'cuisine', 'recette', 'barres de céréales']
+tags: ['nutrition', 'sport', 'effort', 'cuisine', 'recette', 'barres de céréales', 'végétarien', 'fruits secs', 'oléagineux']
+prepTime: "PT10"
+cookTime: "PT20"
+totalTime: "PT30"
+yields: "25"
+ingredients: [
+    "100g de flocons d'avoine complets",
+    "100g de flocons d'épautre",
+    '100g de cramberies',
+    "50g d'abricots secs",
+    "100g d'amandes",
+    "100g de noix de cajoux",
+    "50g de noix du brésil",
+    "100g de miel",
+    "3 cuillères à soupe de beurre de cacahuètes (100%)",
+]
+instructions: [
+    {
+        name: "On mixe...",
+        text: "Mixer d'abbord les flocons ensemble afin d'obtenir une poudre, puis en réservant dans un saladier",
+    },
+    {
+        name: "On mixe...",
+        text: "Mixer ensuite les oléagineux, comme précédemment",
+    },
+    {
+        name: "Et on remixe !",
+        text: "Mixer un peu de poudre flocons + oléagineux avec les cramberies et abricots secs, afin d'éviter que tout ne colle trop au hélices du blender.",
+    },
+    {
+        name: "Ajouter le miel et le beurre de cacahuète",
+        text: "Une fois que c'est fait, on mélange le tout dans le saladier avec le miel et le beurre de cacahuète.",
+    },
+    {
+        name: "On ajuste les quantités",
+        text: "À cette étape, n'hésitez pas à rajouter plus ou moins de miel ou beurre de cacahuète selon votre goût.",
+    },
+    {
+        name: "Au tour de la cuisson",
+        text: "Vous pouvez ensuite étaler le tout dans un plat allant au four, et c'est parti pour une vingtaine de minutes à 160°C !",
+    },
+    {
+        name: "Découpage",
+        text: "Une fois sorti, laisser refroidir un peu et découper des barres au couteau.",
+    },
+    ]
 ---
 
 ### Cette première après-midi magnifique

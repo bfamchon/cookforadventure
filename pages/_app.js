@@ -42,19 +42,19 @@ const MyApp = ({ Component, pageProps }) => {
                     'https://www.strava.com/athletes/25128286',
                     'https://www.instagram.com/bfamchon',
                     'https://www.facebook.com/cookforadventure/',
-                    'https://www.pinterest.fr/baptistefamchon'
+                    'https://www.pinterest.fr/baptistefamchon',
+                    'https://fr.linkedin.com/in/baptiste-famchon-629433111',
                 ]}
             />
             <BlogJsonLd
                 url="https://cookforadventure.com"
-                title="Cook For Adventure"
+                title="Toute la nutrition pour les sportifs | Cook For Adventure"
                 images={[
                     'https://cookforadventure.com/static/images/seo-miniature.webp',
                 ]}
-                datePublished={new Date().toISOString()}
                 dateModified={new Date().toISOString()}
                 authorName="Baptiste"
-                description="Conseils en nutrition et alimentation de l'effort."
+                description="Conseils en nutrition et alimentation de l'effort. Sur Cook For Adventure, retrouvez les meilleures recettes et conseils dédiés aux sportifs !"
             />
             <LogoJsonLd
                 logo="https://cookforadventure.com/static/images/logo-cfa.png"

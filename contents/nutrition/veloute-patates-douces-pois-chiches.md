@@ -6,6 +6,48 @@ date: 01/21/2021
 img: /static/images/veloute-patate-douce-pois-chiches.webp
 desc: Un repas végétarien pour faire le plein de vitamines après le sport !
 tags: ['nutrition', 'sport', 'effort', 'cuisine', 'recette', 'velouté', 'patate douce', 'pois chiche', 'végétarien', 'vitamines', 'minéraux', 'index glycémique', 'IG', 'végétarien', '0 déchets']
+prepTime: "PT20"
+cookTime: "PT10"
+totalTime: "PT30"
+yields: "2"
+ingredients: [
+    '1 patate douce à chaire orange préalablement lavée',
+    '1 oignon rouge',
+    'Du thym',
+    '1 bouillon de légumes',
+    '2 poignées de pois chiches',
+    "Sel et éventuellement piment d'Espelette"
+]
+instructions: [
+    {
+        name: "Faire chauffer de l'huile",
+        text: "On fait chauffer de l'huile d'olive dans une poêle à feu moyen",
+    },
+    {
+        name: "Préparer la patate douce",
+        text: "Puis on épluche la patate douce en gardant les épluchures de côté",
+    },
+    {
+        name: "Faire revenir l'accompagnement",
+        text: "On fait revenir les épluchures et les pois chiches ensemble avec un peu de thym, en prenant soin de mélanger de temps en temps pour éviter que ça brûle.",
+    },
+    {
+        name: "Faire cuire les ingrédients du velouté",
+        text: "Pendant ce temps, on détaille la patate douce et l'oignon rouge en gros morceaux... Et on met le tout dans une cocotte avec de l'eau à hauteur, le bouillon de légumes et du thym.",
+    },
+    {
+        name: "Vérifier la cuisson",
+        text: "15 min plus tard, la patate douce devrait être prête... Plantez un couteau pour vérifier ! Personnellement j'ai attendu que mes épluchures et pois chiches soient bien croustillants avant de les placer sur une feuille d'essuie-tout pour éponger l'huile. J'ai ensuite salé et mélangé avec un peu de piment d'Espelette.",
+    },
+    {
+        name: "Mixer le velouté",
+        text: "Je récupère simplement les patates et l'oignon à l'aide d'un écumoire pour les mixer, en ajoutant l'eau de cuisson petit à petit, jusqu'à obtenir la consistance que vous souhaitez.",
+    },
+    {
+        name: "Dressage",
+        text: "Et comme je trouve qu'un beau visuel rend un plat tout de suite plus appétissant, je place quelques pois chiches et épluchures sur le velouté...",
+    },
+    ]
 ---
 
 ### Un repas d'après séance, par excellence !
@@ -29,7 +71,7 @@ Elle est aussi **riche en vitamines** (A, B6 et C), ainsi qu'en **minéraux** (m
 ### Un bon repas pour deux personnes
 
 - 1 patate douce à chaire orange préalablement lavée 
-- 1 oignons rouge
+- 1 oignon rouge
 - Du thym
 - 1 bouillon de légumes
 - 2 poignées de pois chiches

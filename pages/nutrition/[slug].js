@@ -10,7 +10,7 @@ import Newsletter from 'components/Newsletter';
 import ReactMarkdown from 'react-markdown';
 import styled, { withTheme } from 'styled-components';
 
-import { NextSeo } from 'next-seo';
+import { NextSeo, RecipeJsonLd } from 'next-seo';
 import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
 import Articles from 'components/Articles';
 
@@ -49,9 +49,28 @@ const HeadingLevelToComponent = (props) => {
 }
 
 const AdventureRecipe = ({ article, theme, featured }) => {
-    const calcKcal = (p, l, g) => l*9 + (p + g) *4
+    const calcKcal = (p, l, g) => l*9 + (p + g) *4;
+    const isARecipe = (article) => article.ingredients && article.instructions;
     return (
         <>
+            {isARecipe(article) && (
+                <RecipeJsonLd
+                name={article.title}
+                description={article.desc}
+                datePublished={new Date(article.date).toISOString()}
+                authorName={['Baptiste FAMCHON']}
+                prepTime={article.prepTime}
+                cookTime={article.cookTime}
+                totalTime={article.totalTime}
+                keywords={article.tags.join(', ')}
+                yields={article.yields}
+                images={[
+                  `https://cookforadventure.com${article.img}`,
+                ]}
+                ingredients={article.ingredients}
+                instructions={article.instructions}
+              />
+            )}
             <NextSeo
                 title={article.title}
                 description={article.desc}
