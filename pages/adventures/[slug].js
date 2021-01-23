@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NextSeo } from 'next-seo';
 import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
 
-const Image = styled.img`
+const StyledImage = styled.img`
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -91,7 +91,7 @@ const Adventure = ({ article, theme, featured }) => {
                 <ReactMarkdown source={article.content} renderers={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
-                    image: Image,
+                    image: StyledImage,
                     list: List
                 }} />
             </Section>

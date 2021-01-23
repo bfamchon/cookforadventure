@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Head from 'components/Head'
 import Newsletter from 'components/Newsletter'
 import Section from 'components/section'
@@ -6,7 +7,8 @@ import SectionParagraph from 'components/section/paragraph'
 import styled from 'styled-components';
 import {NextSeo} from 'next-seo';
 
-const Image = styled.img`
+const StyledImage = styled(Image)`
+    display: flex;
     border-radius: 50%;
     width: 200px;
     margin: 0 auto;
@@ -54,7 +56,7 @@ export default function About() {
                 <Newsletter />
             </Section>
             <Section id="made-with-love" title="Fait par un passionné">
-                <Image src="/static/images/megnature.webp" alt="Baptiste, créateur du blog Cook For Adventure"/>
+                <StyledImage unsized src="/static/images/megnature.webp" alt="Baptiste, créateur du blog Cook For Adventure"/>
                 <SectionParagraph center><i>J'me présente, je m'appelle Baptiste !</i></SectionParagraph>
                 <SectionParagraph>Et comme toi, j'aime les <strong>choses simples</strong> de la vie: partir à l'aventure et manger. Ce blog en est la bonne représentation !</SectionParagraph>
                 <SectionParagraph>La nutrition de l'effort est un sujet qui m'intéresse depuis ces années où je suis passé de 110 à 70kg en quelques mois, grâce à un <strong>rééquilibrage alimentaire et au sport</strong>: vélo et course à pieds.</SectionParagraph>

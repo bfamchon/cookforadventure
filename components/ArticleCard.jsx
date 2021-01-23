@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { faArrowRight, faTools } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
 
 const Spacer = styled.div`
     margin: 20px;
@@ -25,7 +26,8 @@ const Container = styled.article`
     box-shadow: 0px 0px 3px 0px white;
 `;
 
-const Image = styled.img`
+const StyledImage = styled(Image)`
+    display: flex;
     object-fit: cover;
     width: 100%;    
     max-height: 200px;
@@ -75,12 +77,15 @@ const Footer = styled.p`
 `;
 
 const ArticleCard = ({ article : {link, slug, title, img, desc, draft}}) => {
+    let responsiveIMG = img.split('.');
+    responsiveIMG.splice(1, 0, '-tablet.');
+    responsiveIMG = responsiveIMG.join('');
     return (
         <Spacer>
             {!draft && <Link href={link} >
                 <a>
                     <Container>
-                        <Image src={img} id={slug} alt={`Image de l'article "${title}"`}/>
+                        <StyledImage unsized src={responsiveIMG} id={slug} alt={`Image de l'article "${title}"`}/>
                         <CardContent>
                             <Title>{title}</Title>
                             <DescriptionContainer>

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Head from 'components/Head'
 import Title from 'components/blog/Title';
 import Tag from 'components/Tag';
@@ -14,7 +15,7 @@ import { NextSeo, RecipeJsonLd } from 'next-seo';
 import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
 import Articles from 'components/Articles';
 
-const Image = styled.img`
+const StyledImage = styled.img`
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -113,7 +114,7 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                 <ReactMarkdown source={article.content} renderers={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
-                    image: Image,
+                    image: StyledImage,
                     list: List
                 }} />
             </Section>

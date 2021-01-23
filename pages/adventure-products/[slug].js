@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import Head from 'components/Head'
 import Title from 'components/blog/Title';
 import Tag from 'components/Tag';
@@ -11,7 +11,7 @@ import ReactMarkdown from 'react-markdown';
 import styled, { withTheme } from 'styled-components';
 import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
 
-const Image = styled.img`
+const StyledImage = styled.img`
     display: flex;
     margin: 0 auto;
     width: 100%;
