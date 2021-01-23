@@ -30,6 +30,7 @@ const StyledImage = styled(Image)`
     display: flex;
     object-fit: cover;
     width: 100%;    
+    height: 100%;    
     max-height: 200px;
 `;
 
