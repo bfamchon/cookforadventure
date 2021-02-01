@@ -35,6 +35,12 @@ export default function AdventureRecipes({ recipes }) {
                 }}
             />
             <Head background={'/static/images/nutrition.webp'} subtitle={"Manger mieux, pour avancer plus loin !"}/>
+            <Section id="sport-nutrition" title="Sport et nutrition, la recette qui fonctionne !" marginLR={120}>
+                <SectionParagraph>Que ce soit avant, pendant ou après une séance, pour <strong>entretenir</strong> sa forme, <strong>développer</strong> sa masse musculaire ou encore ou <strong>perdre du gras</strong>, la nutrition joue un <strong>rôle crucial</strong> dans l'atteinte de nos objectifs.</SectionParagraph>
+                <SectionParagraph>En effet, notre corps <strong>utilise son glycogène</strong> pendant l'effort, nos <strong>fibres musculaires se cassent</strong>, nous perdons parfois de grandes quantités d'<strong>électrolytes</strong> dans la sueur... Et il faut <strong>réparer</strong> tout ça après la séance ! Avec les <strong>bons nutriments</strong>, nous pouvons aider notre corps à <strong>récupérer plus rapidement</strong>.</SectionParagraph>
+                <SectionParagraph>D'ailleurs, <Link href={'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540168/'}><a aria-label="Étude sur le rôle de la nutrition chez le sportif">des études</a></Link> prouvent que de bonnes <strong>stratégies alimentaires</strong> facilitent la <strong>performance</strong> et la <strong>récupération</strong>.</SectionParagraph>
+                <SectionParagraph><i>Convaincu de l'<strong>importance d'une bonne alimentation</strong> depuis de nombreuses années, je <strong>partage</strong> avec vous mes meilleures <strong>recettes et conseils</strong> ci-dessous, pour que la nutrition sportive n'ait plus de secrets pour vous !</i></SectionParagraph>
+            </Section>
             <Section id="last-recipes" title="Les derniers articles" marginLR={120}>
                 <Articles articles={recipes} />
             </Section>
