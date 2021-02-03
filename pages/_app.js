@@ -63,7 +63,7 @@ const MyApp = ({ Component, pageProps }) => {
             />
             <BlogJsonLd
                 url="https://cookforadventure.com"
-                title="Toute la nutrition pour les sportifs | Cook For Adventure"
+                title="Toute la nutrition pour les sportifs"
                 images={[
                     'https://cookforadventure.com/static/images/seo-miniature.webp',
                 ]}
