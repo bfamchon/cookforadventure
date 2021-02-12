@@ -10,9 +10,9 @@ carbohydrate: 46
 lipid: 17
 transport: 4
 tags: ['nutrition', 'sport', 'effort', 'cuisine', 'recette', 'barres de céréales', 'végétarien', 'fruits secs', 'oléagineux']
-prepTime: "PT10"
-cookTime: "PT20"
-totalTime: "PT30"
+prepTime: "PT10M"
+cookTime: "PT20M"
+totalTime: "PT30M"
 yields: "25"
 ingredients: [
     "100g de flocons d'avoine complets",

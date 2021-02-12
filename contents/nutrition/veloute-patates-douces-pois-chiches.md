@@ -6,9 +6,9 @@ date: 01/21/2021
 img: /static/images/veloute-patate-douce-pois-chiches.webp
 desc: Après le sport, rechargez vous en glucides et nutriments !
 tags: ['nutrition sport', 'nutrition', 'sport', 'effort', 'cuisine', 'recette', 'velouté', 'patate douce', 'pois chiche', 'végétarien', 'vitamines', 'minéraux', 'index glycémique', 'IG', 'végétarien', '0 déchets']
-prepTime: "PT20"
-cookTime: "PT10"
-totalTime: "PT30"
+prepTime: "PT20M"
+cookTime: "PT10M"
+totalTime: "PT30M"
 yields: "2"
 ingredients: [
     '1 patate douce à chaire orange préalablement lavée',

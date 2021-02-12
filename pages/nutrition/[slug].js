@@ -69,7 +69,7 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                   `https://cookforadventure.com${article.img}`,
                 ]}
                 ingredients={article.ingredients}
-                instructions={article.instructions}
+                instructions={article.instructions.map(i => ({...i, url: `https://cookforadventure.com${article.link}`, image: `https://cookforadventure.com${article.img}`}))}
               />
             )}
             <NextSeo

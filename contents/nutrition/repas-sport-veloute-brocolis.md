@@ -6,9 +6,9 @@ date: 01/31/2021
 img: /static/images/veloute-brocolis-maïs-oleagineux.webp
 desc: Pour la récupération sportive, optez pour un repas végétarien riche en nutriments !
 tags: ['nutrition pour sportif', 'sport', 'effort', 'cuisine', 'recette', 'bio', 'velouté', 'brocolis', 'maîs', 'végétarien', 'vitamines', 'minéraux', '0 déchets', 'oléagineux', 'amandes', 'noisettes']
-prepTime: "PT20"
-cookTime: "PT10"
-totalTime: "PT30"
+prepTime: "PT20M"
+cookTime: "PT10M"
+totalTime: "PT30M"
 yields: "2"
 ingredients: [
     '1 brocolis',
