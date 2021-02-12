@@ -34,7 +34,7 @@ export default function AdventureRecipes({ recipes }) {
                     site_name: 'Cook For Adventure',
                 }}
             />
-            <Head background={'/static/images/nutrition.webp'} subtitle={"Manger mieux, pour avancer plus loin !"}/>
+            <Head title="Nutrition du sportif" background={'/static/images/nutrition.webp'} subtitle={"Manger mieux, pour avancer plus loin !"}/>
             <Section id="sport-nutrition" title="Sport et nutrition, la recette qui fonctionne !" marginLR={120}>
                 <SectionParagraph>Que ce soit avant, pendant ou après une séance, pour <strong>entretenir</strong> sa forme, <strong>développer</strong> sa masse musculaire ou encore ou <strong>perdre du gras</strong>, la nutrition joue un <strong>rôle crucial</strong> dans l'atteinte de nos objectifs.</SectionParagraph>
                 <SectionParagraph>En effet, notre corps <strong>utilise son glycogène</strong> pendant l'effort, nos <strong>fibres musculaires se cassent</strong>, nous perdons parfois de grandes quantités d'<strong>électrolytes</strong> dans la sueur... Et il faut <strong>réparer</strong> tout ça après la séance ! Avec les <strong>bons nutriments</strong>, nous pouvons aider notre corps à <strong>récupérer plus rapidement</strong>.</SectionParagraph>

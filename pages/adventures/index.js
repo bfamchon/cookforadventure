@@ -34,7 +34,7 @@ export default function Adventures({ adventures }) {
                     site_name: 'Cook For Adventure',
                 }}
             />
-            <Head background={'/static/images/adventures.webp'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
+            <Head title="Aventures" background={'/static/images/adventures.webp'} subtitle={"Les moments passés à explorer rendent l'ordinaire exceptionnel."}/>
             <Section id="last-recipes" title="Les derniers récits" marginLR={120}>
                 <Articles articles={adventures} />
             </Section>

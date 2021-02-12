@@ -4,8 +4,8 @@ lang: fr
 title: Velouté de patates douces et pois chiches
 date: 01/21/2021
 img: /static/images/veloute-patate-douce-pois-chiches.webp
-desc: Un repas végétarien pour faire le plein de vitamines après le sport !
-tags: ['nutrition', 'sport', 'effort', 'cuisine', 'recette', 'velouté', 'patate douce', 'pois chiche', 'végétarien', 'vitamines', 'minéraux', 'index glycémique', 'IG', 'végétarien', '0 déchets']
+desc: Après le sport, rechargez vous en glucides et nutriments !
+tags: ['nutrition sport', 'nutrition', 'sport', 'effort', 'cuisine', 'recette', 'velouté', 'patate douce', 'pois chiche', 'végétarien', 'vitamines', 'minéraux', 'index glycémique', 'IG', 'végétarien', '0 déchets']
 prepTime: "PT20"
 cookTime: "PT10"
 totalTime: "PT30"

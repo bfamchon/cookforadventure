@@ -33,7 +33,7 @@ export default function About() {
                     site_name: 'Cook For Adventure',
                 }}
             />
-            <Head background={'/static/images/about.webp'} subtitle={'Aventuriers, Épicuriens, ce site est fait pour vous.'}></Head>
+            <Head title="À propos" background={'/static/images/about.webp'} subtitle={'Aventuriers, Épicuriens, ce site est fait pour vous.'}></Head>
             <Section id="why" title="Manifesto">
                 <SectionParagraph>As-tu déjà ressenti cette sensation de ne <strong>pas savoir quoi manger pendant le sport</strong> ? De ne <strong>pas avoir assez de calories</strong> pour tes entraînements ? Ou sur tes randonnées de plusieurs jours ?</SectionParagraph>
                 <SectionParagraph>C'était mon cas. Et mis à part les produits que l'on retrouvait dans les grandes enseignes (repas lyophilisés, snacks healthy...), souvent incomplets sur le plan nutritionnel, je ne savais pas quoi manger. Plutôt dommage étant donné que le progrès vient avec le <strong>repos et l'alimentation.</strong></SectionParagraph>
