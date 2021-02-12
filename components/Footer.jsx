@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styled from "styled-components";
 import { faHeart, faAt } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faFacebook, faStrava } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook, faStrava, faPinterest } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const StyledFooter = styled.footer`
@@ -29,6 +29,13 @@ const Networks = styled.p`
     & > * {
         color: ${props => props.theme.colors.BLACK};
         margin: 10px 20px;
+        transition: color 0.3s ease;
+    }
+    & > *:hover {
+        color: ${props => props.theme.colors.BROWN};
+    }
+    & > *:focus {
+        color: ${props => props.theme.colors.BROWN};
     }
 `;
 
@@ -37,9 +44,10 @@ const Footer = () => {
         <StyledFooter>
             <MadeWithLove>Fait avec&nbsp;<FontAwesomeIcon icon={faHeart}/></MadeWithLove>
             <Networks>
-                <Link href={'https://www.instagram.com/bfamchon'} title="Rejoins moi sur Instagram !"><a rel="me" aria-label="Rejoins moi sur Instagram !"><FontAwesomeIcon icon={faInstagram} size={'lg'}/></a></Link>
-                <Link href={'https://www.facebook.com/cookforadventure/'} title="Rejoins moi sur Facebook !"><a rel="me" aria-label="Rejoins moi sur Facebook !"><FontAwesomeIcon icon={faFacebook} size={'lg'}/></a></Link>
-                <Link href={'https://www.strava.com/athletes/25128286'} title="Rejoins moi sur Strava !"><a rel="me" aria-label="Rejoins moi sur Strava !"><FontAwesomeIcon icon={faStrava} size={'lg'}/></a></Link>
+                <Link href={'https://www.instagram.com/bfamchon'}><a title="Rejoins moi sur Instagram !" rel="me" aria-label="Rejoins moi sur Instagram !"><FontAwesomeIcon icon={faInstagram} size={'lg'}/></a></Link>
+                <Link href={'https://www.facebook.com/cookforadventure/'}><a title="Rejoins moi sur Facebook !" rel="me" aria-label="Rejoins moi sur Facebook !"><FontAwesomeIcon icon={faFacebook} size={'lg'}/></a></Link>
+                <Link href={'https://www.strava.com/athletes/25128286'}><a title="Rejoins moi sur Strava !" rel="me" aria-label="Rejoins moi sur Strava !"><FontAwesomeIcon icon={faStrava} size={'lg'}/></a></Link>
+                <Link href={'https://www.pinterest.fr/baptistefamchon'}><a title="Rejoins moi sur Pinterest !" rel="me" aria-label="Rejoins moi sur Pinterest !"><FontAwesomeIcon icon={faPinterest} size={'lg'}/></a></Link>
                 <a href='mailto:cookforadventure@gmail.com' title="Contactez moi par mail !" aria-label="Me contacter par mail"><FontAwesomeIcon icon={faAt} size={'lg'}/></a>
             </Networks>
     </StyledFooter>
