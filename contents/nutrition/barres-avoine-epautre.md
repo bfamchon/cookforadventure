@@ -69,7 +69,7 @@ Sans plus attendre, nous faisons un rapide check-up du matériel et répartisson
 
 Plus que les sandwichs d'aire d'autoroute, c'est le dessert que nous avons hâte de gouter ! **Pas moins de 25 barres de céréales nous attendent dans le coffre**, pourvu que ce soit bon ! Elles devraient nous accompagner sur les 5 prochains jours, pour le petit déj et en guise de coup de boost dans la journée. On se disait justement qu'avec plus de 40 km par jour, **il va nous en falloir des coups de boost !**
 
-***Pour savoir pourquoi tout n'a pas été si simple durant ces 5 jours***, [je te laisse découvrir la suite de l'aventure en cliquant ici ! ;-)](/adventures/gr30-ultra-leger "GR30 - Tour des volcans d'Auvergne en ultra léger")
+***Pour savoir pourquoi tout n'a pas été si simple durant ces 5 jours***, [je te laisse découvrir la suite de l'aventure en cliquant ici ! ;-)](/recits-aventures/gr30-ultra-leger "GR30 - Tour des volcans d'Auvergne en ultra léger")
 
 ![Vue sur la Bourboule et Mont-Dore depuis le Puy Gros](https://cfa-images.s3.eu-west-3.amazonaws.com/20201010_142205.jpg)
 
@@ -79,7 +79,7 @@ Nous avions bien sûr avec des barres de céréales du commerce, mais entre nous
 
 C'est naturellement que je me suis proposé d'en préparer, l'avantage c'est qu'on peut **réaliser pas mal de variante** avec ce dont on dispose à la maison.
 
-Pour le transport, toutes les barres de céréales tenaient dans [la poche ventrale de l'ultra bag 20L de chez WAA](/adventure-products "WAA Ultra bag 20L, simplicité et practicité pour vos aventures ultra légère !"). Car oui, le poids était important : nous sommes partis avec 20/25L sur le dos, soit environ 4-5kg chacun, couchage inclus... Je portais donc environ 500g de barres pour les 5 jours. Les barres étaient donc stockées dans un sac zip trouvable en grande surface, et calées par [le topoguide officiel du GR30](https://amzn.to/3lx7itQ) !
+Pour le transport, toutes les barres de céréales tenaient dans [la poche ventrale de l'ultra bag 20L de chez WAA](/tests-produits-sportifs "WAA Ultra bag 20L, simplicité et practicité pour vos aventures ultra légère !"). Car oui, le poids était important : nous sommes partis avec 20/25L sur le dos, soit environ 4-5kg chacun, couchage inclus... Je portais donc environ 500g de barres pour les 5 jours. Les barres étaient donc stockées dans un sac zip trouvable en grande surface, et calées par [le topoguide officiel du GR30](https://amzn.to/3lx7itQ) !
 
 Vraiment pratique cette poche avant pour du petit matériel, facilement manipulable en courant/marchant sans avoir à ouvrir le sac.
 
@@ -111,6 +111,6 @@ Il y a 3 ans, j'ai fais l'[acquisition d'un blender Magimix](https://amzn.to/3pp
 - Une fois sorti, laisser refroidir un peu et découper des barres au couteau.
 - Vous pouvez ensuite stocker le tout au frigo pour les solidifier un peu et attendre patiemment la prochaine occasion de les tester ! :-)
 
-**Concernant la conservation**, je les ai préparées le jeudi soir [pour un départ le samedi midi jusqu'au jeudi suivant](/adventures/gr30-ultra-leger "GR30 - Tour des volcans d'Auvergne en ultra léger")... Et il m'en restait encore quelques unes !
+**Concernant la conservation**, je les ai préparées le jeudi soir [pour un départ le samedi midi jusqu'au jeudi suivant](/recits-aventures/gr30-ultra-leger "GR30 - Tour des volcans d'Auvergne en ultra léger")... Et il m'en restait encore quelques unes !
 
 Elles m'auront donc duré **un peu plus d'une semaine**, sans aucun ressenti au niveau du goût... En même temps, leur composition ne se prète pas vraiment à une consommation rapide !

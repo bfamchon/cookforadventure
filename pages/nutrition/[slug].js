@@ -119,8 +119,8 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                 }} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">
-                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/nutrition'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/adventure-products'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
-                <SectionParagraph>Sans oublier les <Link href={'/adventures'}><a aria-label="adventures">récits d'aventures</a></Link> !</SectionParagraph>
+                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/nutrition'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/tests-produits-sportifs'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
+                <SectionParagraph>Sans oublier les <Link href={'/recits-aventures'}><a aria-label="adventures">récits d'aventures</a></Link> !</SectionParagraph>
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
             </Section>

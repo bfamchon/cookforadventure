@@ -13,11 +13,11 @@ export default function Adventures({ adventures }) {
             <NextSeo
                 title="Récits d'aventures sportives"
                 description="Vous retrouverez ici tous mes récits sportifs: randonnées,  courses... Je mets à l'épreuve ce que je vous présente sur le blog !"
-                canonical={`https://cookforadventure.com/adventures`}
+                canonical={`https://cookforadventure.com/recits-aventures`}
                 openGraph={{
                     type: 'website',
                     locale: 'fr_FR',
-                    url: 'https://cookforadventure.com/adventures',
+                    url: 'https://cookforadventure.com/recits-aventures',
                     title:
                         "Récits d'aventures sportives",
                     description:
@@ -39,8 +39,8 @@ export default function Adventures({ adventures }) {
                 <Articles articles={adventures} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">
-                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/nutrition'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/adventure-products'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
-                <SectionParagraph>Sans oublier les <Link href={'/adventures'}><a aria-label="adventures">récits d'aventures</a></Link> !</SectionParagraph>
+                <SectionParagraph>Sur Cook For Adventure, je te présente <Link href={'/nutrition'}><a aria-label="recettes">toutes mes recettes, conseils sur la nutrition de l'effort</a></Link> et <Link href={'/tests-produits-sportifs'}><a aria-label="tests de produits">produits que j'utilise</a></Link>...</SectionParagraph>
+                <SectionParagraph>Sans oublier les <Link href={'/recits-aventures'}><a aria-label="adventures">récits d'aventures</a></Link> !</SectionParagraph>
                 <SectionParagraph>Alors pour <Link href={'/about'}><a aria-label="à propos de Cook For Adventure">ne manquez aucune sortie</a></Link> et faire partie de la communauté, inscrit toi à la newsletter !</SectionParagraph>
                 <Newsletter />
             </Section>
