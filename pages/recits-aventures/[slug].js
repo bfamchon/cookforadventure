@@ -111,7 +111,7 @@ export default withTheme(Adventure);
 
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
-    const subject = 'adventures';
+    const subject = 'recits-aventures';
     const article = getAnArticle(slug, subject);
     return {
         props: {
@@ -121,7 +121,7 @@ export const getStaticProps = async ({...ctx}) => {
     };
 };
 export async function getStaticPaths() {
-    const subject = 'adventures';
+    const subject = 'recits-aventures';
 
     return {
         paths : getAllPaths(subject),

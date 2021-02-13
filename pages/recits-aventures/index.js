@@ -49,7 +49,7 @@ export default function Adventures({ adventures }) {
 }
 
 export const getStaticProps = async () => {
-    const subject = 'adventures';
+    const subject = 'recits-aventures';
     return {
         props: {
             adventures: getAllArticlesAbout(subject),

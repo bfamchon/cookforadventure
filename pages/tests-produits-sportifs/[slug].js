@@ -72,7 +72,7 @@ export default function AdventureProduct({ article, featured }) {
 
 export const getStaticProps = async ({...ctx}) => {
     const { slug } = ctx.params;
-    const subject = 'adventure-products';
+    const subject = 'tests-produits-sportifs';
     const article = getAnArticle(slug, subject);
     return {
         props: {
@@ -82,7 +82,7 @@ export const getStaticProps = async ({...ctx}) => {
     };
 };
 export async function getStaticPaths() {
-    const subject = 'adventure-products';
+    const subject = 'tests-produits-sportifs';
     return {
         paths : getAllPaths(subject),
         fallback: false,

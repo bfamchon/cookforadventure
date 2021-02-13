@@ -51,7 +51,7 @@ export default function AdventureProducts({ products }) {
 }
 
 export const getStaticProps = async () => {
-    const subject = 'adventure-products';
+    const subject = 'tests-produits-sportifs';
     return {
         props: {
             products: [], //getAllArticlesAbout(subject),
