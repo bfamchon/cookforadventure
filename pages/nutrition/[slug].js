@@ -9,6 +9,7 @@ import SectionParagraph from 'components/section/paragraph';
 import Newsletter from 'components/Newsletter';
 
 import ReactMarkdown from 'react-markdown/with-html';
+import React from 'react';
 import styled, { withTheme } from 'styled-components';
 
 import { NextSeo, RecipeJsonLd } from 'next-seo';
@@ -50,6 +51,15 @@ const HeadingLevelToComponent = (props) => {
 }
 
 const AdventureRecipe = ({ article, theme, featured }) => {
+    React.useEffect(() => {
+        const registerView = () =>
+          fetch(`/api/views/${article.slug}`, {
+            method: 'POST'
+          });
+    
+        registerView();
+      }, [article.slug]);
+
     const calcKcal = (p, l, g) => l*9 + (p + g) *4;
     const isARecipe = (article) => article.ingredients && article.instructions;
     return (

@@ -7,6 +7,8 @@ import Section from 'components/section';
 import SectionParagraph from 'components/section/paragraph';
 
 import ReactMarkdown from 'react-markdown';
+import React from 'react';
+
 import styled, {withTheme} from 'styled-components';
 import { faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -49,6 +51,14 @@ const HeadingLevelToComponent = (props) => {
 }
 
 const Adventure = ({ article, theme, featured }) => {
+    React.useEffect(() => {
+        const registerView = () =>
+          fetch(`/api/views/${article.slug}`, {
+            method: 'POST'
+          });
+    
+        registerView();
+      }, [article.slug]);
     return (
         <>            
         <NextSeo

@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
     "babel-plugin-styled-components": "^1.11.1",
+    "firebase-admin": "^9.5.0",
     "glob": "^7.1.6",
     "globby": "^11.0.1",
     "gray-matter": "^4.0.2",

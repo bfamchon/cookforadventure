@@ -7,6 +7,7 @@ import SectionParagraph from 'components/section/paragraph';
 
 import Newsletter from 'components/Newsletter';
 
+import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import styled, { withTheme } from 'styled-components';
 import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
@@ -46,6 +47,14 @@ const HeadingLevelToComponent = (props) => {
 }
 
 export default function AdventureProduct({ article, featured }) {
+    React.useEffect(() => {
+        const registerView = () =>
+          fetch(`/api/views/${article.slug}`, {
+            method: 'POST'
+          });
+    
+        registerView();
+      }, [article.slug]);
     return (
         <>
             <Head background={article.img} title={article.title} subtitle={article.desc}/>
