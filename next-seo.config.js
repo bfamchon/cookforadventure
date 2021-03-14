@@ -13,7 +13,7 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'fr_FR',
-        url: 'https://cookforadventure.com/',
+        url: 'https://cookforadventure.com',
         title:
             "Toute la nutrition pour les sportifs",
         description:
