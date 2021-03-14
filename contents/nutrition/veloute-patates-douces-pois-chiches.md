@@ -7,6 +7,7 @@ img: /static/images/veloute-patate-douce-pois-chiches.webp
 desc: Après le sport, rechargez vous en glucides et nutriments !
 tags: ['nutrition sport', 'nutrition', 'sport', 'effort', 'cuisine', 'recette', 'velouté', 'patate douce', 'pois chiche', 'végétarien', 'vitamines', 'minéraux', 'index glycémique', 'IG', 'végétarien', '0 déchets']
 prepTime: "PT20M"
+category: "Plat"
 cookTime: "PT10M"
 totalTime: "PT30M"
 yields: "2"

@@ -13,6 +13,7 @@ tags: ['nutrition', 'sport', 'effort', 'cuisine', 'recette', 'barres de céréal
 prepTime: "PT10M"
 cookTime: "PT20M"
 totalTime: "PT30M"
+category: "Collation"
 yields: "25"
 ingredients: [
     "100g de flocons d'avoine complets",

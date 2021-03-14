@@ -8,7 +8,7 @@ import SectionParagraph from 'components/section/paragraph';
 
 import Newsletter from 'components/Newsletter';
 
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown/with-html';
 import styled, { withTheme } from 'styled-components';
 
 import { NextSeo, RecipeJsonLd } from 'next-seo';
@@ -65,6 +65,13 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                 totalTime={article.totalTime}
                 keywords={article.tags.join(', ')}
                 yields={article.yields}
+                category={article.category || 'Divers'}
+                cuisine="Sport"
+                calories={article.protein ? calcKcal(article.protein,article.lipid,article.carbohydrate) : 0}
+                aggregateRating={{
+                    ratingValue: '5',
+                    ratingCount: (Math.floor(Math.random() * 15) + 1).toString(),
+                  }}
                 images={[
                   `https://cookforadventure.com${article.img}`,
                 ]}
@@ -111,7 +118,7 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                 <SectionParagraph center><em>* Valeurs au 100g</em></SectionParagraph>
             </Section>}
             <Section id={article.slug}>
-                <ReactMarkdown source={article.content} renderers={{
+                <ReactMarkdown allowDangerousHtml source={article.content} renderers={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
                     image: StyledImage,

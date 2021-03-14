@@ -10,6 +10,7 @@ prepTime: "PT20M"
 cookTime: "PT10M"
 totalTime: "PT30M"
 yields: "2"
+category: "Plat"
 ingredients: [
     '1 brocolis',
     '1 oignon rouge',
