@@ -67,7 +67,7 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                 yields={article.yields}
                 category={article.category || 'Divers'}
                 cuisine="Sport"
-                calories={article.protein ? calcKcal(article.protein,article.lipid,article.carbohydrate) : 0}
+                calories={article.protein ? calcKcal(article.protein,article.lipid,article.carbohydrate) : 1}
                 aggregateRating={{
                     ratingValue: '5',
                     ratingCount: (Math.floor(Math.random() * 15) + 1).toString(),
