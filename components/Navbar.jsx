@@ -1,22 +1,36 @@
 import Link from 'next/link';
+import React from 'react';
 import styled from "styled-components";
 
 const StyledNavigation = styled.nav`
+    transition: background-color 0.3s ease;
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-flow: wrap;
     top: 0;
     width: 100%;
     justify-content: center;
     align-items:  center;
-    padding: 20px 0;
+    padding: 10px 0;
+    background-color: ${props => props.scrollBackground};
 
     & > a {
+      transition: all 0.1s ease;
       ${props => props.theme.a}
+      font-weight: 600;
+      text-decoration: none;
       font-size: 20px;
-      margin: 0 10px;
-      color: white;
-      text-shadow: 1px 1px 15px black;
+      margin: 0 15px;
+      color: ${props => props.scrollBackground === 'var(--white)' ? 'var(--black)' : 'var(--white)'};
+      text-shadow: ${props => props.scrollBackground !== 'var(--white)' ? '1px 1px 2px var(--black)' : 'none'};
+
+      :hover {
+        text-decoration: underline;
+      }
+      :active {
+        color: inherit;
+        text-shadow: none;
+      }
     }
 `;
 
@@ -25,8 +39,22 @@ const AppLogo = styled.img`
 `;
 
 const Navigation = () => {
+  const [scrollBackground, setScrollBackground] = React.useState('transparent');
+  const scrollListener = () => {
+      if (window.scrollY > 200) {
+          setScrollBackground('var(--white)');
+      } else if (window.scrollY > 100 && window.scrollY < 200) {
+        setScrollBackground('var(--white-30)');
+      } else if (window.scrollY < 100) {
+        setScrollBackground('transparent');
+      }
+  };
+  React.useEffect(() => {
+      window.addEventListener('scroll', scrollListener);
+      return () => window.removeEventListener('scroll', scrollListener);
+  }, []);
   return (
-    <StyledNavigation>
+    <StyledNavigation scrollBackground={scrollBackground}>
         <Link href={'/'} alt="Retourner à l'accueil">
           <a>
           </a>

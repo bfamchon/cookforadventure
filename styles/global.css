@@ -38,6 +38,9 @@
     background-color: #f2f2f2;
     color: #1a1a1a;
     --brown: #c65817;
+    --black: #1A1A1A;
+    --white: #F2F2F2;
+    --white-30: #F2F2F23b;
   }
 
   body {
@@ -56,4 +59,8 @@ strong {
 
 a {
   color: var(--brown);
+}
+
+.text-left {
+  text-align: left;
 }

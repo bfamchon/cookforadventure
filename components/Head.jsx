@@ -1,19 +1,21 @@
+import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 85vh;
+    min-height: 90vh;
     width: 100%;
-    background-color: black;
+    background-color: var(--black);
     background: url(${props => props.background}) no-repeat center center;
     background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.25);
 
     @media only screen and (max-width: 768px) {
         background: url(${props => props.responsive}) no-repeat center center;
         background-size: cover;
-        background-color: black;
+        background-color: var(--black);
     }
 `;
 
