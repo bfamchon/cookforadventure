@@ -68,7 +68,7 @@ Vous l'avez compris, on utilise ces boissons isotoniques plutôt qu'une eau plat
 
 Une boisson isotonique va être intéressante pour tous les sportifs évoluant sur des efforts longs de plus d'1H voire 1H30, quand les pertes en sels minéraux se font plus importantes.
 
-Vous en retrouverez sur beaucoup de sites spécialisés comme [la célébre Iso+ par Aptonia](https://www.decathlon.fr/p/boisson-isotonique-poudre-iso-citron-650g/_/R-p-9834) ou encore [l'Authentic Booster + d'Authentic nutrition](https://www.authentic-nutrition.com/pendant-l-effort/471-authentic-booster-plus.html) mais aujourd'hui, je vous partage ma recette de boisson de l'effort qui m'accompagne sur mes courses les plus longues !
+Vous en retrouverez sur beaucoup de sites spécialisés comme [la célébre Iso+ par Aptonia](https://www.decathlon.fr/p/boisson-isotonique-poudre-iso-citron-650g/_/R-p-9834) ou encore [l'Authentic Booster + d'Authentic nutrition](https://www.authentic-nutrition.com/pendant-l-effort/471-authentic-booster-plus.html) mais aujourd'hui, je vous partage ma recette de boisson de l'effort qui m'accompagne sur les plus longues courses !
 
 ### Mes recettes de boissons de l'effort
 
