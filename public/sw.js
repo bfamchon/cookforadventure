@@ -16,7 +16,9 @@ var assets = [
   '/static/images/gr30-cover-tablet.webp',
   '/static/images/veloute-patate-douce-pois-chiches.webp',
   '/static/images/veloute-patate-douce-pois-chiches-tablet.webp',
-];
+  '/static/images/preparation-boisson-isotonique.webp',
+  '/static/images/preparation-boisson-isotonique-tablet.webp'
+]
 
 self.addEventListener('install', function(event) {
   // Installation du service worker

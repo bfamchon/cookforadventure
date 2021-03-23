@@ -25,7 +25,7 @@ const h3 = `
     font-size: 28px;
     font-weight: 700;
 	letter-spacing: 1px;
-	text-transform: uppercase
+	text-transform: uppercase;
 `;
 
 const h4 = `
@@ -57,7 +57,7 @@ const footer = `
     font-size: 20px;
     font-weight: 400;
 	letter-spacing: 1px;
-	text-transform: uppercase
+	text-transform: uppercase;
 `;
 
 const button = `
