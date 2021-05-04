@@ -36,14 +36,13 @@ Légèrement salé, ces dépôts sont en fait des **sels minéraux** qui se sont
 
 *Mais qu'est-ce que c'est, au juste, un électrolyte ?*
 
-Il faut savoir que les électrolytes sont au nombre de 7:
+Il faut savoir que les électrolytes sont au nombre de 6, on les appelle aussi "macro-éléments":
 
 - Le sodium
 - Le potassium
-- Le chlorure
-- Le bicarbonate
+- Le soufre
 - Le calcium
-- Le phosphate
+- Le phosphore
 - Le magnésium
 
 Tous sont responsables du bon fonctionnement de notre corps, en assurant notamment un bon équilibre hydrique, un transport des impulsions électriques jusqu'à nos muscles, une régulation du pH perturbé par l'effort sportif... Que des choses plutôt cool, faut le dire: on est bien foutu !

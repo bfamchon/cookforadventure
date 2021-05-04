@@ -95,6 +95,6 @@ Je récupère simplement les patates et l'oignon à l'aide d'un écumoire pour l
 
 Et comme je trouve qu'un beau visuel rend un plat tout de suite plus appétissant, je place quelques pois chiches et épluchures sur le velouté...
 
-Et voilà le résultat !
+Et voilà le résultat, l'idée m'est venue de vous partager cette recette après lecture du premier magazine Nature Trail de l'année... Je la trouvais particulièrement adaptée au thème !
 
 ![Un repas complet pour récupérer après le sport](/static/images/veloute-patate-douce-pois-chiches.webp)

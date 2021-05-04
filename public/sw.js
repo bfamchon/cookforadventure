@@ -17,7 +17,9 @@ var assets = [
   '/static/images/veloute-patate-douce-pois-chiches.webp',
   '/static/images/veloute-patate-douce-pois-chiches-tablet.webp',
   '/static/images/preparation-boisson-isotonique.webp',
-  '/static/images/preparation-boisson-isotonique-tablet.webp'
+  '/static/images/preparation-boisson-isotonique-tablet.webp',
+  '/static/images/barres-sport-energie-progressive.webp',
+  '/static/images/barres-sport-energie-progressive-tablet.webp'
 ]
 
 self.addEventListener('install', function(event) {
@@ -99,4 +101,3 @@ self.addEventListener('activate', function(event) {
         event.respondWith(promiseResponse);
     }
   });
-  
