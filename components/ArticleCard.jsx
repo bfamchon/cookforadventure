@@ -19,6 +19,7 @@ const Spacer = styled.div`
 `;
 const Container = styled.article`
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 100%;
     max-width: 320px;
@@ -26,7 +27,7 @@ const Container = styled.article`
     box-shadow: 0px 0px 3px 0px white;
 `;
 
-const StyledImage = styled(Image)`
+const ImageContainer = styled.div`
     display: flex;
     object-fit: cover;
     width: 100%;    
@@ -86,7 +87,9 @@ const ArticleCard = ({ article : {link, slug, title, img, desc, draft}}) => {
             {!draft && <Link href={link} >
                 <a>
                     <Container>
-                        <StyledImage unsized src={responsiveIMG} id={slug} alt={`Image de l'article "${title}"`}/>
+                        <ImageContainer>
+                            <Image width="320" height="200" src={responsiveIMG} id={slug} alt={`Image de l'article "${title}"`}/>
+                        </ImageContainer>
                         <CardContent>
                             <Title>{title}</Title>
                             <DescriptionContainer>
@@ -98,7 +101,7 @@ const ArticleCard = ({ article : {link, slug, title, img, desc, draft}}) => {
                 </a>
             </Link>}
             {draft && <Container>
-                        <Image src={img} id={slug} />
+                        <Image layout='fill' src={img} id={slug} />
                         <CardContent>
                             <Title>{title}</Title>
                             <DescriptionContainer>

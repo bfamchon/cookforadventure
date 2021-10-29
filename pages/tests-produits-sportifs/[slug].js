@@ -9,6 +9,9 @@ import Newsletter from 'components/Newsletter';
 
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw'
+import rehypeSanitize from 'rehype-sanitize'
+
 import styled, { withTheme } from 'styled-components';
 import { getAllPaths, getAnArticle, getLatestArticles } from 'lib/articles';
 
@@ -59,7 +62,7 @@ export default function AdventureProduct({ article, featured }) {
         <>
             <Head background={article.img} title={article.title} subtitle={article.desc}/>
             <Section id={article.slug}>
-                <ReactMarkdown source={article.content} renderers={{
+                <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeSanitize]} children={article.content} components={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
                     image: Image,

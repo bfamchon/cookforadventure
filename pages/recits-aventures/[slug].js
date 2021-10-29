@@ -7,6 +7,8 @@ import Section from 'components/section';
 import SectionParagraph from 'components/section/paragraph';
 
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw'
+import rehypeSanitize from 'rehype-sanitize'
 import React from 'react';
 
 import styled, {withTheme} from 'styled-components';
@@ -98,7 +100,7 @@ const Adventure = ({ article, theme, featured }) => {
                 </TagContainer>
             </Section>
             <Section id={article.slug}>
-                <ReactMarkdown source={article.content} renderers={{
+                <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeSanitize]} children={article.content} components={{
                     paragraph: BlogParagraph,
                     heading: HeadingLevelToComponent,
                     image: StyledImage,

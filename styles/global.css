@@ -1,33 +1,33 @@
 @font-face {
     font-family : "Oswald";
-    src         : url('public/static/fonts/Oswald-Regular.ttf');
+    src         : url('/static/fonts/Oswald-Regular.ttf');
     font-style  : normal;
     font-weight : 700;
     font-display: swap;
   }
   @font-face {
     font-family : "Oswald";
-    src         : url('public/static/fonts/Oswald-Light.ttf');
+    src         : url('/static/fonts/Oswald-Light.ttf');
     font-style  : normal;
     font-weight : 300;
     font-display: swap;
   }
   @font-face {
     font-family : "EB Garamond";
-    src         : url('public/static/fonts/EBGaramond-Italic.ttf');
+    src         : url('/static/fonts/EBGaramond-Italic.ttf');
     font-style  : oblique;
     font-weight : 400;
     font-display: swap;
   }
   @font-face {
     font-family : "EB Garamond";
-    src         : url('public/static/fonts/EBGaramond-Regular.ttf');
+    src         : url('/static/fonts/EBGaramond-Regular.ttf');
     font-weight : 400;
     font-display: swap;
   }
    @font-face {
     font-family : "OpenSans";
-    src         : url('public/static/fonts/OpenSans-Regular.ttf');
+    src         : url('/static/fonts/OpenSans-Regular.ttf');
     font-weight : 400;
     font-display: swap;
   }
@@ -63,4 +63,8 @@ a {
 
 .text-left {
   text-align: left;
+}
+
+.img-megnature {
+    border-radius: 50%;
 }

@@ -8,7 +8,9 @@ import SectionParagraph from 'components/section/paragraph';
 
 import Newsletter from 'components/Newsletter';
 
-import ReactMarkdown from 'react-markdown/with-html';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw'
+import rehypeSanitize from 'rehype-sanitize'
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
 
@@ -128,11 +130,16 @@ const AdventureRecipe = ({ article, theme, featured }) => {
                 <SectionParagraph center><em>* Valeurs au 100g</em></SectionParagraph>
             </Section>}
             <Section id={article.slug}>
-                <ReactMarkdown allowDangerousHtml source={article.content} renderers={{
-                    paragraph: BlogParagraph,
-                    heading: HeadingLevelToComponent,
-                    image: StyledImage,
-                    list: List
+                <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeSanitize]} children={article.content} components={{
+                    p: BlogParagraph,
+                    h1: HeadingLevelToComponent,
+                    h2: HeadingLevelToComponent,
+                    h3: HeadingLevelToComponent,
+                    h4: HeadingLevelToComponent,
+                    h5: HeadingLevelToComponent,
+                    h6: HeadingLevelToComponent,
+                    img: StyledImage,
+                    ul: List
                 }} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">

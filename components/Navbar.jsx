@@ -13,6 +13,7 @@ const StyledNavigation = styled.nav`
     align-items:  center;
     padding: 10px 0;
     background-color: ${props => props.scrollBackground};
+    z-index: 3;
 
     & > a {
       transition: all 0.1s ease;
