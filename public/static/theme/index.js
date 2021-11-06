@@ -61,7 +61,7 @@ const footer = `
 `;
 
 const button = `
-cursor: pointer;
+	cursor: pointer;
 	box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
 	border-width: 0;
 	background-color: ${colors.BROWN};
@@ -85,6 +85,10 @@ cursor: pointer;
         background-color: ${colors.BROWN};
         color: rgba(255,255,255,0.8);
     }
+
+	& > * {
+		cursor: pointer;
+	}
 `;
 
 const buttonDanger = `

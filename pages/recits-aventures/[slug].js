@@ -101,10 +101,15 @@ const Adventure = ({ article, theme, featured }) => {
             </Section>
             <Section id={article.slug}>
                 <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeSanitize]} children={article.content} components={{
-                    paragraph: BlogParagraph,
-                    heading: HeadingLevelToComponent,
-                    image: StyledImage,
-                    list: List
+                    p: BlogParagraph,
+                    h1: HeadingLevelToComponent,
+                    h2: HeadingLevelToComponent,
+                    h3: HeadingLevelToComponent,
+                    h4: HeadingLevelToComponent,
+                    h5: HeadingLevelToComponent,
+                    h6: HeadingLevelToComponent,
+                    img: StyledImage,
+                    ul: List
                 }} />
             </Section>
             <Section id="newsletter" title="200% aventure, 0% spam">
